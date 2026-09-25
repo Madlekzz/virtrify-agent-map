@@ -2,10 +2,10 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-09-24",
-  "label": "Asana · synced Sep 24, 2026",
+  "syncedAt": "2026-09-25",
+  "label": "Asana · synced Sep 25, 2026",
   "counts": {
-   "tasks": 68,
+   "tasks": 67,
    "sections": 5,
    "departments": 8
   },
@@ -17,13 +17,13 @@
   },
   "shapeChanges": {
    "unmappedSections": [
-    "ACTIVE (47 tasks)",
-    "INACTIVE (2 tasks)"
+    "ACTIVE (48 tasks)",
+    "INACTIVE (3 tasks)"
    ],
    "duplicateCustomFields": [
-    "3 tasks carry two different 'Department' custom fields (gid 1218361443737496 vs 1211678013530219) with conflicting values — used the field present on all 68 tasks (matches canon dept names exactly); the stale duplicate ignored: 'CRM database cleanup agent [Duplicate]' (Recruitment vs AI Implementation), 'Virtrify Brain' (Innovation Lab vs AI Implementation), 'Loss prevention agent' (Sales vs Sales [INTERNAL])."
+    "1 task carries two different 'Department' custom fields (gid 1218361443737496 vs 1211678013530219) with conflicting values — used the field present on all 67 tasks (matches canon dept names exactly); ignored: 'CRM database cleanup agent [Duplicate]' (Recruitment vs AI Implementation). The other two duplicate-field conflicts flagged in the previous sync ('Virtrify Brain' and 'Loss prevention agent') have been cleaned up in Asana and no longer carry a second Department field."
    ],
-   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Duplicate Department custom-field conflicts were resolved using the field present on all tasks; see duplicateCustomFields for the ignored values."
+   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. One duplicate Department custom-field conflict remains (see duplicateCustomFields); two others resolved since the last sync."
   },
   "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
@@ -275,7 +275,7 @@
   {
    "id": "a1218812302938177",
    "asanaGid": "1218812302938177",
-   "name": "Crm Database Reactivation",
+   "name": " Crm Database Reactivation",
    "seat": "Sales",
    "dept": "Sales",
    "cat": "Skill",
@@ -367,58 +367,6 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218804257247351"
-  },
-  {
-   "id": "a1218804258013114",
-   "asanaGid": "1218804258013114",
-   "name": "Billing Methodology Model",
-   "seat": "Finance",
-   "dept": "Finance",
-   "cat": "Skill",
-   "platform": "Viktor",
-   "owner": "Juan C Leal",
-   "initials": "JC",
-   "status": "Review",
-   "statusMapped": true,
-   "cls": "D",
-   "cs": [
-    1,
-    1,
-    1,
-    0
-   ],
-   "locked": true,
-   "lastRun": "Updated Sep 24",
-   "subs": 1,
-   "prompt": "Used on-demand by Juan C Leal (CFO) via the Billing Methodology Change workbook to model a billing-method change across the active VTMs Directory — per-VTM/client cost, client charge, tech fee, revenue and gross margin under a new 50%-target-margin methodology (cost x1.5), with discount/increase per client, revenue tiers T1/T2/T3, and rollout waves.",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
-    "Slack": 1,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Completed in Asana",
-     "Sep 24"
-    ],
-    [
-     "Section · WAITING FOR FEEDBACK OR APPROVAL",
-     "current"
-    ],
-    [
-     "1 subtask on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Sep 24"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218804258013114"
   },
   {
    "id": "a1218799810709207",
@@ -761,106 +709,6 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
   },
   {
-   "id": "a1218460672521789",
-   "asanaGid": "1218460672521789",
-   "name": "Onboarding Handover Notes",
-   "seat": "Onboarding",
-   "dept": "Onboarding",
-   "cat": "Skill",
-   "platform": "Claude",
-   "owner": "Paola Gomez",
-   "initials": "PG",
-   "status": "Building",
-   "statusMapped": true,
-   "cls": "E",
-   "cs": [
-    1,
-    1,
-    0,
-    0
-   ],
-   "locked": false,
-   "lastRun": "Updated Sep 21",
-   "subs": 1,
-   "prompt": "Analyzes calendar and Fathom meetings to generate an onboarding handover summary for Abraham and Alejandra (Account Management). Currently runs manually per new client; desired state is a Scheduled Task ~2 weeks after client start, with Paola reviewing the draft before sending in the interim. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
-    "Slack": 0,
-    "Gmail": 0,
-    "Google Calendar": 1,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 1
-   },
-   "runs": [
-    [
-     "Section · WORKING ON IT",
-     "current"
-    ],
-    [
-     "1 subtask on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Sep 21"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460672521789"
-  },
-  {
-   "id": "a1218096440442692",
-   "asanaGid": "1218096440442692",
-   "name": "Virtrify Brain",
-   "seat": "Innovation Lab",
-   "dept": "Innovation Lab",
-   "cat": "Deliverables",
-   "platform": "Google Drive",
-   "owner": "Andreina Matheus",
-   "initials": "AM",
-   "status": "Building",
-   "statusMapped": true,
-   "cls": "B",
-   "cs": [
-    1,
-    1,
-    0,
-    0
-   ],
-   "locked": false,
-   "lastRun": "Updated Sep 21",
-   "subs": 12,
-   "prompt": "Follow-up to the completed 'Virtrify Brain in Claude' build: the real-world validation layer where each department owner confirms their canonical doc actually reflects how the department operates, catching anything stale, missing, or wrong before the C-Suite projects and Brain Keeper inherit it. Method: owner reads their doc, flags corrections, and Andreina ratifies the fix into the one owning doc; one subtask per doc/owner across all nine departments plus Company Overview and Canon Index.",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 1,
-    "Asana": 1,
-    "Slack": 0,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Completed in Asana",
-     "Sep 21"
-    ],
-    [
-     "Section · WORKING ON IT",
-     "current"
-    ],
-    [
-     "12 subtasks on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Sep 21"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218096440442692"
-  },
-  {
    "id": "a1217387498050713",
    "asanaGid": "1217387498050713",
    "name": "Map of 137 Agents Running Company",
@@ -957,6 +805,96 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217383960053656"
   },
   {
+   "id": "a1218460672521789",
+   "asanaGid": "1218460672521789",
+   "name": "Onboarding Handover Notes",
+   "seat": "Onboarding",
+   "dept": "Onboarding",
+   "cat": "Agent",
+   "platform": "Claude",
+   "owner": "Paola Gomez",
+   "initials": "PG",
+   "status": "ACTIVE",
+   "statusMapped": false,
+   "cls": "E",
+   "cs": null,
+   "locked": false,
+   "lastRun": "Updated Sep 25",
+   "subs": 1,
+   "prompt": "Analyzes calendar and Fathom meetings to generate an onboarding handover summary for Abraham and Alejandra (Account Management). Currently runs manually per new client; desired state is a Scheduled Task ~2 weeks after client start, with Paola reviewing the draft before sending in the interim. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 1,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 1
+   },
+   "runs": [
+    [
+     "Section · ACTIVE",
+     "current"
+    ],
+    [
+     "1 subtask on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Sep 25"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460672521789"
+  },
+  {
+   "id": "a1218096440442692",
+   "asanaGid": "1218096440442692",
+   "name": "Virtrify Brain",
+   "seat": "Innovation Lab",
+   "dept": "Innovation Lab",
+   "cat": "Deliverables",
+   "platform": "Google Drive",
+   "owner": "Andreina Matheus",
+   "initials": "AM",
+   "status": "ACTIVE",
+   "statusMapped": false,
+   "cls": "B",
+   "cs": null,
+   "locked": false,
+   "lastRun": "Updated Sep 24",
+   "subs": 12,
+   "prompt": "Follow-up to the completed 'Virtrify Brain in Claude' build: the real-world validation layer where each department owner confirms their canonical doc actually reflects how the department operates, catching anything stale, missing, or wrong before the C-Suite projects and Brain Keeper inherit it. Method: owner reads their doc, flags corrections, and Andreina ratifies the fix into the one owning doc; one subtask per doc/owner across all nine departments plus Company Overview and Canon Index.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 1,
+    "Asana": 1,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Completed in Asana",
+     "Sep 21"
+    ],
+    [
+     "Section · ACTIVE",
+     "current"
+    ],
+    [
+     "12 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Sep 24"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218096440442692"
+  },
+  {
    "id": "a1218812302723831",
    "asanaGid": "1218812302723831",
    "name": "Yecsibel Linkedin Lead Intake",
@@ -998,11 +936,11 @@
   {
    "id": "a1218804257716980",
    "asanaGid": "1218804257716980",
-   "name": "GHL Contact Tagging",
+   "name": "GHL Contact Tagging ",
    "seat": "Sales",
    "dept": "Sales",
    "cat": "Agent",
-   "platform": "GrokBot",
+   "platform": "Viktor",
    "owner": "Alex Miranda",
    "initials": "AM",
    "status": "ACTIVE",
@@ -1010,7 +948,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 25",
    "subs": 1,
    "prompt": "Not a cron — tagging/field rules Viktor follows whenever he creates or updates a GHL contact or opportunity, requested by Alex (Aug 12) for richer records and better segmentation: minimum 5 tags across 4+ dimensions (industry mandatory), reuse of the ~413 existing tags before creating new ones, required fields (company, real website, LinkedIn URL, source, E.164 phone), a contact note, and proper opportunity naming. Used by the Yecsibel LinkedIn lead intake, sales-report imports, and manual GHL creates.",
    "conns": {
@@ -1033,7 +971,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218804257716980"
@@ -1096,8 +1034,8 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
-   "subs": 1,
+   "lastRun": "Updated Sep 25",
+   "subs": 2,
    "prompt": "On-demand skill (not a cron), mainly used by Jorge, that checks sales leads are correctly loaded in GHL: cross-checks Gmail, calendar and Asana history against GHL opportunities for a properly staged Pre Sales card with owner, value and follow-up, finds leads missing GHL cards, and creates/fixes cards only as drafts pending approval — never changes pipeline structure (that stays Hector's domain).",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -1114,12 +1052,12 @@
      "current"
     ],
     [
-     "1 subtask on the task",
+     "2 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303122642"
@@ -1139,7 +1077,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 25",
    "subs": 1,
    "prompt": "On-demand skill Viktor used to load Jorge's quarterly sales report into the GHL pipeline \"Full Pre Sales Process - Internal\" without duplicates: documents the column mapping, Jorge's stage rules, and duplicate detection via the Asana task ID in the opportunity name. Used Sep 1, 2026 for the Q1 2026 report at Jorge's request.",
    "conns": {
@@ -1162,7 +1100,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810552145"
@@ -1793,49 +1731,6 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216170521681330"
   },
   {
-   "id": "a1218361621402689",
-   "asanaGid": "1218361621402689",
-   "name": "Agents follow up",
-   "seat": "Innovation Lab",
-   "dept": "Innovation Lab",
-   "cat": "Agent",
-   "platform": "Unset",
-   "owner": "Andreina Matheus, Italo Apruzzese",
-   "initials": "AM",
-   "status": "ACTIVE",
-   "statusMapped": false,
-   "cls": "B",
-   "cs": null,
-   "locked": false,
-   "lastRun": "Updated Sep 16",
-   "subs": 3,
-   "prompt": "Agent dedicated to gathering status updates and feedback on every agent implementation: extracts the data from the ACTIVE section of this Asana project and sends a Slack message every Monday at 11am asking each owner for a status update on their agent.",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 1,
-    "Slack": 0,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Section · ACTIVE",
-     "current"
-    ],
-    [
-     "3 subtasks on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Sep 16"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218361621402689"
-  },
-  {
    "id": "a1215972564622807",
    "asanaGid": "1215972564622807",
    "name": "VTM Invoice Verification Agent",
@@ -2178,7 +2073,7 @@
   {
    "id": "a1217688895056778",
    "asanaGid": "1217688895056778",
-   "name": "Create annual-salary increase skill",
+   "name": "Annual-salary increase skill",
    "seat": "Account Management",
    "dept": "Account Management",
    "cat": "Skill",
@@ -2190,8 +2085,8 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 16",
-   "subs": 1,
+   "lastRun": "Updated Sep 25",
+   "subs": 2,
    "prompt": "Logged in Asana, no scope written yet.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -2208,12 +2103,12 @@
      "current"
     ],
     [
-     "1 subtask on the task",
+     "2 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Sep 16"
+     "Sep 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217688895056778"
@@ -2221,7 +2116,7 @@
   {
    "id": "a1217142224662647",
    "asanaGid": "1217142224662647",
-   "name": "Project Interview — EOS Position Candidates Claude Project",
+   "name": "Project Interview — EOS Position Candidates Claude Project ",
    "seat": "Onboarding",
    "dept": "Onboarding",
    "cat": "Deliverables",
@@ -2303,7 +2198,7 @@
   {
    "id": "a1215972404045641",
    "asanaGid": "1215972404045641",
-   "name": "Inorganic Candidates Dashboard",
+   "name": "Inorganic Candidates Dashboard ",
    "seat": "Recruitment",
    "dept": "Recruitment",
    "cat": "Deliverables",
@@ -2518,7 +2413,7 @@
   {
    "id": "a1215972564621754",
    "asanaGid": "1215972564621754",
-   "name": "Data Entry Candidate Tracking Agent",
+   "name": "Data Entry Candidate Tracking Agent ",
    "seat": "Recruitment",
    "dept": "Recruitment",
    "cat": "Skill",
@@ -2651,7 +2546,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 24",
+   "lastRun": "Updated Sep 25",
    "subs": 2,
    "prompt": "Would like a report every time we lose a prospect. Needs analysis.\n\n(Context: raised after a lost-search follow-up thread involving detailed client feedback on candidate screening quality and fee transparency; full correspondence lives in Gmail/Asana and is not reproduced here.)",
    "conns": {
@@ -2674,7 +2569,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 24"
+     "Sep 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216930368598736"
@@ -2918,6 +2813,53 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743884392750"
   },
   {
+   "id": "a1218804258013114",
+   "asanaGid": "1218804258013114",
+   "name": "Billing Methodology Model",
+   "seat": "Finance",
+   "dept": "Finance",
+   "cat": "Skill",
+   "platform": "Viktor",
+   "owner": "Juan C Leal",
+   "initials": "JC",
+   "status": "INACTIVE",
+   "statusMapped": false,
+   "cls": "D",
+   "cs": null,
+   "locked": true,
+   "lastRun": "Updated Sep 24",
+   "subs": 1,
+   "prompt": "Used on-demand by Juan C Leal (CFO) via the Billing Methodology Change workbook to model a billing-method change across the active VTMs Directory — per-VTM/client cost, client charge, tech fee, revenue and gross margin under a new 50%-target-margin methodology (cost x1.5), with discount/increase per client, revenue tiers T1/T2/T3, and rollout waves.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 1,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Completed in Asana",
+     "Sep 24"
+    ],
+    [
+     "Section · INACTIVE",
+     "current"
+    ],
+    [
+     "1 subtask on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Sep 24"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218804258013114"
+  },
+  {
    "id": "a1218799592929386",
    "asanaGid": "1218799592929386",
    "name": "James Reactivation Campaign",
@@ -3007,23 +2949,8 @@
  "gov": [],
  "activity": [
   [
-   "Fleet synced from Asana · 68 tasks, 8 departments",
+   "Fleet synced from Asana · 67 tasks, 8 departments",
    "today",
-   "#3ecf72"
-  ],
-  [
-   "CRM database cleanup agent [Duplicate] completed",
-   "Sep 14",
-   "#3ecf72"
-  ],
-  [
-   "Virtrify Brain completed",
-   "Sep 21",
-   "#3ecf72"
-  ],
-  [
-   "Billing Methodology Model completed",
-   "Sep 24",
    "#3ecf72"
   ],
   [
@@ -3043,10 +2970,6 @@
   ]
  ],
  "scheduled": [
-  [
-   "Following up after failed searches · due",
-   "2026-09-24"
-  ],
   [
    "Canon Index review · Quarterly (EOS)",
    "quarterly"
