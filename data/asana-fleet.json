@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-09-25",
-  "label": "Asana · synced Sep 25, 2026",
+  "syncedAt": "2026-09-26",
+  "label": "Asana · synced Sep 26, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -676,7 +676,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Sep 24",
+   "lastRun": "Updated Sep 25",
    "subs": 5,
    "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge and Fabiana, and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana (GHL has no \"failed search\" stage today).\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
    "conns": {
@@ -699,11 +699,11 @@
     ],
     [
      "Due",
-     "2026-09-24"
+     "2026-09-29"
     ],
     [
      "Last activity in Asana",
-     "Sep 24"
+     "Sep 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
@@ -2970,6 +2970,10 @@
   ]
  ],
  "scheduled": [
+  [
+   "Following up after failed searches · due",
+   "2026-09-29"
+  ],
   [
    "Canon Index review · Quarterly (EOS)",
    "quarterly"
