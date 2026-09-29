@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-09-28",
-  "label": "Asana · synced Sep 28, 2026",
+  "syncedAt": "2026-09-29",
+  "label": "Asana · synced Sep 29, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -21,9 +21,9 @@
     "INACTIVE (3 tasks)"
    ],
    "duplicateCustomFields": [
-    "1 task carries two different 'Department' custom fields (gid 1218361443737496 vs 1211678013530219) with conflicting values — used the field present on all 67 tasks (matches canon dept names exactly); ignored: 'CRM database cleanup agent [Duplicate]' (Recruitment vs AI Implementation). The other two duplicate-field conflicts flagged in the previous sync ('Virtrify Brain' and 'Loss prevention agent') have been cleaned up in Asana and no longer carry a second Department field."
+    "1 task carries two different 'Department' custom fields (gid 1218361443737496 vs 1211678013530219) with conflicting values — used the field present on all 67 tasks (matches canon dept names exactly); ignored: 'CRM database cleanup agent [Duplicate]' (Recruitment vs AI Implementation). Unchanged since the previous sync."
    ],
-   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. One duplicate Department custom-field conflict remains (see duplicateCustomFields); two others resolved since the last sync."
+   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. One duplicate Department custom-field conflict remains (see duplicateCustomFields), unchanged since the last sync."
   },
   "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
@@ -532,8 +532,8 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Sep 23",
-   "subs": 1,
+   "lastRun": "Updated Sep 28",
+   "subs": 2,
    "prompt": "On-demand skill (not a cron): method for VTM cohort retention testing — hired before vs. after Marc's mid-June hiring changes, hire dates, tenure at exit, and a significance test. Runs only when asked, e.g. whether the hiring changes reduced churn.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -550,12 +550,12 @@
      "current"
     ],
     [
-     "1 subtask on the task",
+     "2 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303299907"
@@ -676,7 +676,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Sep 25",
+   "lastRun": "Updated Sep 29",
    "subs": 5,
    "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge and Fabiana, and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana (GHL has no \"failed search\" stage today).\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
    "conns": {
@@ -699,11 +699,11 @@
     ],
     [
      "Due",
-     "2026-09-29"
+     "Sep 29"
     ],
     [
      "Last activity in Asana",
-     "Sep 25"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
@@ -728,7 +728,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 28",
    "subs": 3,
    "prompt": "I want a map like this (referencing an Instagram reel of a similar agent-fleet visualization). How do we get here?\n\n(Raised by Alex Miranda, Aug 11, 2026.)",
    "conns": {
@@ -742,6 +742,10 @@
    },
    "runs": [
     [
+     "Completed in Asana",
+     "Sep 28"
+    ],
+    [
      "Section · WORKING ON IT",
      "current"
     ],
@@ -751,7 +755,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217387498050713"
@@ -909,7 +913,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 28",
    "subs": 0,
    "prompt": "On-demand flow (not a cron) Viktor runs only when Yecsibel DMs him \"lead de LinkedIn:\" with a conversation or profile URL: extracts name/title/company/location, looks up the company website for industry, creates/updates the GHL contact with tagging standards and source, adds a context note, creates an opportunity in the LinkedIn Leads pipeline, and creates a +3-business-day follow-up task. Cannot pull emails/phones itself (no Apollo/ContactOut API); every GHL write needs Yecsibel's Slack approval.",
    "conns": {
@@ -928,7 +932,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812302723831"
@@ -1069,20 +1073,20 @@
    "seat": "Sales",
    "dept": "Sales",
    "cat": "Skill",
-   "platform": "Viktor",
+   "platform": "Claude",
    "owner": "Jorge Duque",
    "initials": "JD",
    "status": "ACTIVE",
    "statusMapped": false,
    "cls": "C",
    "cs": null,
-   "locked": true,
-   "lastRun": "Updated Sep 25",
+   "locked": false,
+   "lastRun": "Updated Sep 28",
    "subs": 1,
-   "prompt": "On-demand skill Viktor used to load Jorge's quarterly sales report into the GHL pipeline \"Full Pre Sales Process - Internal\" without duplicates: documents the column mapping, Jorge's stage rules, and duplicate detection via the Asana task ID in the opportunity name. Used Sep 1, 2026 for the Q1 2026 report at Jorge's request.",
+   "prompt": "On-demand skill (not a cron), migrated from Viktor to Claude on 2026-09-25: loads Jorge Duque's quarterly sales report (plus Alex's discovery-call log) into the GHL pipeline \"Full Pre Sales Process - Internal\" without creating duplicates, using the Virtrify GHL connector — every write still goes through approval batches. Last run was Q1 2026 (Sep 1, via Viktor): 67 created / 42 flagged, split 8 Won / 56 Lost / 3 Open; a Lost Reason pass is still pending Jorge's picklist.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 1,
+    "Asana": 0,
     "Slack": 1,
     "Gmail": 0,
     "Google Calendar": 0,
@@ -1100,7 +1104,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 25"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810552145"
@@ -1120,7 +1124,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 28",
    "subs": 1,
    "prompt": "Skill, not a cron: runs when James names a company/website and asks for research before a discovery call, strategy session, or blueprint, building a Discovery Research Pack from Sales Playbook v2.0. The related cron /james/meeting-prep reuses this skill's templates for pre-meeting dossiers; the research itself has no schedule.",
    "conns": {
@@ -1143,7 +1147,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303184161"
@@ -1163,7 +1167,7 @@
    "cls": "D",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 28",
    "subs": 1,
    "prompt": "Weekly cron (Mondays) used by Carlos Monsalve (Finance) that checks each active VTM's amounts match between the Asana project VA/Client Profit Margin (~131 tasks) and the VTMs DASHBOARD sheet's VTMs Directory tab, DMing him the diffs — amount/rate/margin mismatches, sheet VTMs missing Asana tasks, Asana tasks for inactive sheet VTMs, and (since Sep 15) Directory FT/PT mismatches.",
    "conns": {
@@ -1186,7 +1190,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799694427538"
@@ -1292,7 +1296,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 28",
    "subs": 0,
    "prompt": "Yecsibel's LinkedIn daily-post flow (distinct from her lead intake): posts go out after her approval, content can be queued, and a rule was added to check for repeated content before publishing.",
    "conns": {
@@ -1311,7 +1315,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799694389933"
@@ -1495,7 +1499,7 @@
    "cls": "D",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 28",
    "subs": 1,
    "prompt": "Five automated weekly reports (Revenue, Sales, Trend, Collections, Monthly Sales) built in Víctor; a scheduling bug was fixed June 30 and all five were set to auto-run starting July 3. Ongoing work is monitoring schedule stability and maintaining the QuickBooks connection.",
    "conns": {
@@ -1518,7 +1522,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216169501250775"
@@ -1702,7 +1706,7 @@
    "cls": "D",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 17",
+   "lastRun": "Updated Sep 28",
    "subs": 3,
    "prompt": "Configure Juan's access to the Claude Design financial dashboard HTML file on his new HP laptop, and establish the workflow for updating the dashboard monthly with new Excel data after Q2 close and beyond.",
    "conns": {
@@ -1725,7 +1729,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 17"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216170521681330"
@@ -1745,7 +1749,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 14",
+   "lastRun": "Updated Sep 28",
    "subs": 1,
    "prompt": "Use Víctor to automate monthly BTM invoice verification — triggered by a new invoice posted in Slack, compare against the master Hours and Rates Excel file and flag discrepancies.",
    "conns": {
@@ -1768,7 +1772,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 14"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972564622807"
@@ -1788,7 +1792,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 15",
+   "lastRun": "Updated Sep 28",
    "subs": 1,
    "prompt": "Replaces Alejandra's manual Excel historial for BTM one-on-ones and the Claude chat she uses as a mini-assistant before meetings: hourly sync pulls calendar/Fathom 1:1 summaries into her Excel historial, answers pre-meeting questions like \"when was my last 1:1 with X,\" and a Friday-morning check flags BTMs who still owe their quarterly 1:1. Longer-term destination is an Asana project (one ticket per person) once that project is fixed; Excel is Phase A.",
    "conns": {
@@ -1811,7 +1815,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 15"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218361621402542"
@@ -2382,7 +2386,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 16",
+   "lastRun": "Updated Sep 28",
    "subs": 4,
    "prompt": "Build a bot that creates personalized BTM birthday posts using data captured in 1-on-1 meetings.",
    "conns": {
@@ -2405,7 +2409,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 16"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972401243530"
@@ -2874,7 +2878,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 28",
    "subs": 1,
    "prompt": "Skill for James A. Garcia's ex-client reactivation campaign: recover churned clients who opened or replied to GHL reactivation emails. Contains a tiered call queue, lane rules (James = ex-clients + net-new), scripts for call-prep/funnel audit/opt-outs, and logged outcomes; tied to a Mon-Fri 9am ET cron that DMs James 5 names. Viktor reported the campaign as stalled.",
    "conns": {
@@ -2897,7 +2901,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 28"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799592929386"
@@ -2951,6 +2955,11 @@
   [
    "Fleet synced from Asana · 67 tasks, 8 departments",
    "today",
+   "#3ecf72"
+  ],
+  [
+   "Map of 137 Agents Running Company completed",
+   "Sep 28",
    "#3ecf72"
   ],
   [
