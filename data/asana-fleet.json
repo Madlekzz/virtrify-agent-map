@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-09-29",
-  "label": "Asana · synced Sep 29, 2026",
+  "syncedAt": "2026-09-30",
+  "label": "Asana · synced Sep 30, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -823,7 +823,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 25",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Analyzes calendar and Fathom meetings to generate an onboarding handover summary for Abraham and Alejandra (Account Management). Currently runs manually per new client; desired state is a Scheduled Task ~2 weeks after client start, with Paola reviewing the draft before sending in the interim. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
    "conns": {
@@ -846,7 +846,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 25"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460672521789"
@@ -1124,7 +1124,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 28",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Skill, not a cron: runs when James names a company/website and asks for research before a discovery call, strategy session, or blueprint, building a Discovery Research Pack from Sales Playbook v2.0. The related cron /james/meeting-prep reuses this skill's templates for pre-meeting dossiers; the research itself has no schedule.",
    "conns": {
@@ -1147,7 +1147,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303184161"
@@ -1456,7 +1456,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Logged in the Claude SHARED skills inventory (Ops & automation folder, 2026-09-23) for inventory purposes; description TBD.",
    "conns": {
@@ -1479,7 +1479,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810998538"
@@ -1499,7 +1499,7 @@
    "cls": "D",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 28",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Five automated weekly reports (Revenue, Sales, Trend, Collections, Monthly Sales) built in Víctor; a scheduling bug was fixed June 30 and all five were set to auto-run starting July 3. Ongoing work is monitoring schedule stability and maintaining the QuickBooks connection.",
    "conns": {
@@ -1522,7 +1522,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216169501250775"
@@ -1542,7 +1542,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 21",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "Renames and sorts finished NotebookLM Studio artifacts, prepending the module.lesson number to every artifact title across Studio types (videos, audios, infographics, reports, mind maps, quizzes) and leaving the list sorted ascending. Last step in the Virtrify course production pipeline, after notebooklm-studio-generator. (Owner/requester context: Mariam Troche, QA & Learning Specialist.)",
    "conns": {
@@ -1561,7 +1561,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 21"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639068593070"
@@ -1581,7 +1581,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 21",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "Generates NotebookLM Studio content from already-written prompts, running a batch of pre-written customization prompts inside a notebook's Studio panel (Video Overviews, Audio Overviews, Slide Deck, Infographics) via Claude in Chrome. Middle step in the Virtrify course production pipeline, between virtrify-notebooklm-prompts and notebooklm-studio-renamer.",
    "conns": {
@@ -1600,7 +1600,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 21"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639162798866"
@@ -1706,7 +1706,7 @@
    "cls": "D",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 28",
+   "lastRun": "Updated Sep 29",
    "subs": 3,
    "prompt": "Configure Juan's access to the Claude Design financial dashboard HTML file on his new HP laptop, and establish the workflow for updating the dashboard monthly with new Excel data after Q2 close and beyond.",
    "conns": {
@@ -1729,7 +1729,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216170521681330"
@@ -1749,7 +1749,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 28",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Use Víctor to automate monthly BTM invoice verification — triggered by a new invoice posted in Slack, compare against the master Hours and Rates Excel file and flag discrepancies.",
    "conns": {
@@ -1772,7 +1772,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972564622807"
@@ -1792,7 +1792,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 28",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Replaces Alejandra's manual Excel historial for BTM one-on-ones and the Claude chat she uses as a mini-assistant before meetings: hourly sync pulls calendar/Fathom 1:1 summaries into her Excel historial, answers pre-meeting questions like \"when was my last 1:1 with X,\" and a Friday-morning check flags BTMs who still owe their quarterly 1:1. Longer-term destination is an Asana project (one ticket per person) once that project is fixed; Excel is Phase A.",
    "conns": {
@@ -1815,7 +1815,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218361621402542"
@@ -1835,7 +1835,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Condensed one-pager version of the 90-day onboarding plan for quick stakeholder sharing. Live Claude skill; pairs with the 90-Day Onboarding Plan. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
    "conns": {
@@ -1858,7 +1858,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460673856037"
@@ -1878,7 +1878,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "From a client Scope of Work (SoW), creates a 30-60-90 day onboarding plan plus proposed KPIs. Live Claude skill used by Paola, manual trigger; the Onboarding One-Pager is the short version of this plan. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
    "conns": {
@@ -1901,7 +1901,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460618028653"
@@ -2089,7 +2089,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 25",
+   "lastRun": "Updated Sep 29",
    "subs": 2,
    "prompt": "Logged in Asana, no scope written yet.",
    "conns": {
@@ -2112,7 +2112,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 25"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217688895056778"
@@ -2132,7 +2132,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 21",
+   "lastRun": "Updated Sep 29",
    "subs": 2,
    "prompt": "Set up and run a project interview for candidates applying to the EOS position, and make sure applicants come prepared: define the interview format and deliverables, create clear prep instructions, share prep materials ahead of the interview, and evaluate each candidate against the EOS role expectations.",
    "conns": {
@@ -2155,7 +2155,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 21"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217142224662647"
@@ -2257,7 +2257,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 22",
+   "lastRun": "Updated Sep 29",
    "subs": 6,
    "prompt": "While the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses: detect \"incorrect\" images (e.g. the course background-template header appearing when it shouldn't) and flag them for manual correction. Needs a clear definition of what makes an image \"incorrect,\" trained against example images from Paola, before it can be tested for accuracy.",
    "conns": {
@@ -2280,7 +2280,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 22"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217145575745850"
@@ -2386,7 +2386,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 28",
+   "lastRun": "Updated Sep 29",
    "subs": 4,
    "prompt": "Build a bot that creates personalized BTM birthday posts using data captured in 1-on-1 meetings.",
    "conns": {
@@ -2409,7 +2409,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972401243530"
@@ -2472,7 +2472,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 22",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role, in a standalone application (same as the L10 simulation activity) gated by a GHL contact ID inserted into the link; on completion, a Slack notification carries the candidate's submission. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2491,7 +2491,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 22"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740321676"
@@ -2511,7 +2511,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 22",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude, in a standalone application gated by a GHL contact ID inserted into the link — only reachable by entering through GHL. On completion, a Slack notification carries a summary of the candidate's L10 simulation. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2530,7 +2530,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 22"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740272350"
@@ -2636,7 +2636,7 @@
    "cls": "B",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "Implementation Services operating system (Blueprint 2.0): reusable methodology plus client engagement file that becomes the coached engagement. Installs the six pylons — does not \"extract\" methodology or deploy agents on its own. Works with the PM plus Italo; does not invent prices, SOWs, or gap grades.",
    "conns": {
@@ -2655,7 +2655,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743643779354"
@@ -2675,7 +2675,7 @@
    "cls": "B",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "Weekly pulse on live agents/skills: Mondays 11am Caracas, reads the ACTIVE section of this Asana project, Slack-DMs each owner (running well? issues? in use?), and rolls up the replies. Does not create or delete bots.",
    "conns": {
@@ -2694,7 +2694,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743643779363"
@@ -2714,7 +2714,7 @@
    "cls": "B",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "Innovation Lab bot factory — charters, seat map, connectors, and handoffs for teammate Grokbots. Builds team bots; personal ops stay with CIO. Does not message third parties without approval.",
    "conns": {
@@ -2733,7 +2733,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743884392738"
@@ -2753,7 +2753,7 @@
    "cls": "B",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Sep 29",
    "subs": 0,
    "prompt": "AI advances / progress digests to Slack #the-ai-hub. Mon/Wed/Fri 10am Caracas: drafts to Andreina's DM for approval, then posts. Never auto-publishes; zero invented numbers.",
    "conns": {
@@ -2772,7 +2772,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743884392744"
@@ -2878,7 +2878,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Sep 28",
+   "lastRun": "Updated Sep 29",
    "subs": 1,
    "prompt": "Skill for James A. Garcia's ex-client reactivation campaign: recover churned clients who opened or replied to GHL reactivation emails. Contains a tiered call queue, lane rules (James = ex-clients + net-new), scripts for call-prep/funnel audit/opt-outs, and logged outcomes; tied to a Mon-Fri 9am ET cron that DMs James 5 names. Viktor reported the campaign as stalled.",
    "conns": {
@@ -2901,7 +2901,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Sep 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799592929386"
@@ -2958,11 +2958,6 @@
    "#3ecf72"
   ],
   [
-   "Map of 137 Agents Running Company completed",
-   "Sep 28",
-   "#3ecf72"
-  ],
-  [
    "Course Assignment Bot (Paid Invoice → GHL course link) blocked · GrokBot not cleared above class A",
    "open",
    "#e5484d"
@@ -2979,10 +2974,6 @@
   ]
  ],
  "scheduled": [
-  [
-   "Following up after failed searches · due",
-   "2026-09-29"
-  ],
   [
    "Canon Index review · Quarterly (EOS)",
    "quarterly"
