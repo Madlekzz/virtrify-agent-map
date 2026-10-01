@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-09-30",
-  "label": "Asana · synced Sep 30, 2026",
+  "syncedAt": "2026-10-01",
+  "label": "Asana · synced Oct 1, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -676,7 +676,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Sep 30",
    "subs": 5,
    "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge and Fabiana, and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana (GHL has no \"failed search\" stage today).\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
    "conns": {
@@ -703,7 +703,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Sep 30"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
@@ -2257,7 +2257,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Sep 30",
    "subs": 6,
    "prompt": "While the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses: detect \"incorrect\" images (e.g. the course background-template header appearing when it shouldn't) and flag them for manual correction. Needs a clear definition of what makes an image \"incorrect,\" trained against example images from Paola, before it can be tested for accuracy.",
    "conns": {
@@ -2280,7 +2280,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Sep 30"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217145575745850"
@@ -2472,7 +2472,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Sep 30",
    "subs": 0,
    "prompt": "Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role, in a standalone application (same as the L10 simulation activity) gated by a GHL contact ID inserted into the link; on completion, a Slack notification carries the candidate's submission. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2491,7 +2491,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Sep 30"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740321676"
@@ -2511,7 +2511,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Sep 30",
    "subs": 0,
    "prompt": "Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude, in a standalone application gated by a GHL contact ID inserted into the link — only reachable by entering through GHL. On completion, a Slack notification carries a summary of the candidate's L10 simulation. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2530,7 +2530,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Sep 30"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740272350"
