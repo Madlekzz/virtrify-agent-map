@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-02",
-  "label": "Asana · synced Oct 2, 2026",
+  "syncedAt": "2026-10-03",
+  "label": "Asana · synced Oct 3, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -2175,7 +2175,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 1",
+   "lastRun": "Updated Oct 2",
    "subs": 0,
    "prompt": "Automate creation of LinkedIn Boolean search strings — triggered by a new SOW in Asana, the bot reads the SOW, generates the Boolean string, and reports it to Sonia; human outreach stays manual.",
    "conns": {
@@ -2194,7 +2194,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 1"
+     "Oct 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972401153104"
@@ -2214,7 +2214,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 1",
+   "lastRun": "Updated Oct 2",
    "subs": 8,
    "prompt": "Refine the candidate pipeline dashboard: multi-stage document tracking (Pending Docs → Document Sent), an icebox for rejected candidates, dynamic position-specific views, an Add Candidate button, and the Virtrify logo.",
    "conns": {
@@ -2237,7 +2237,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 1"
+     "Oct 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972404045641"
@@ -2257,7 +2257,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 30",
+   "lastRun": "Updated Oct 3",
    "subs": 6,
    "prompt": "While the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses: detect \"incorrect\" images (e.g. the course background-template header appearing when it shouldn't) and flag them for manual correction. Needs a clear definition of what makes an image \"incorrect,\" trained against example images from Paola, before it can be tested for accuracy.",
    "conns": {
@@ -2280,7 +2280,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 30"
+     "Oct 3"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217145575745850"
@@ -2429,7 +2429,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 1",
+   "lastRun": "Updated Oct 2",
    "subs": 2,
    "prompt": "Automate extracting interview data (salary, availability, Fathom link, LinkedIn profile) and adding it to the correct candidate's task in the Asana Candidate Tracking project.",
    "conns": {
@@ -2452,7 +2452,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 1"
+     "Oct 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972564621754"
