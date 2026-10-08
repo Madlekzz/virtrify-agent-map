@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-07",
-  "label": "Asana · synced Oct 7, 2026",
+  "syncedAt": "2026-10-08",
+  "label": "Asana · synced Oct 8, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -22,9 +22,9 @@
    ],
    "duplicateCustomFields": [
     "1 task carries two different 'Department' custom fields (gid 1218361443737496 vs 1211678013530219) with conflicting values — used the field present on all 67 tasks (matches canon dept names exactly); ignored: 'CRM database cleanup agent [Duplicate]' (Recruitment vs AI Implementation). Unchanged since the previous sync.",
-    "New this sync: 'Loss prevention agent' also carries two different 'Department' custom fields (gid 1218361443737496 = Sales vs gid 1211678013530219 = Account Management) — used Sales (the field present on all 67 tasks); ignored Account Management."
+    "'Loss prevention agent' also carries two different 'Department' custom fields (gid 1218361443737496 = Sales vs gid 1211678013530219 = Account Management) — used Sales (the field present on all 67 tasks); ignored Account Management. Unchanged since the previous sync."
    ],
-   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Two duplicate Department custom-field conflicts now present (see duplicateCustomFields) — one unchanged, one new this sync."
+   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Two duplicate Department custom-field conflicts present (see duplicateCustomFields), both unchanged since the previous sync."
   },
   "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
@@ -197,7 +197,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 6",
+   "lastRun": "Updated Oct 7",
    "subs": 1,
    "prompt": "Automate the full payroll incident workflow — on Asana ticket creation, Víctor reads the ticket, performs prorated pay calculation, updates the Hours & Rates spreadsheet, posts the result to Slack, and marks the ticket complete, eliminating manual data entry between systems.",
    "conns": {
@@ -220,7 +220,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 6"
+     "Oct 7"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216037466000588"
@@ -245,7 +245,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 6",
+   "lastRun": "Updated Oct 7",
    "subs": 1,
    "prompt": "A skill that reads a candidate's LinkedIn profile and compares it against the scope of work to determine match, as the sourcing/screening continuation of the candidate-tracking flow. Paused at Sonia's request until next quarter. (Source: meeting with Sonia, Sep 14, 2026.)",
    "conns": {
@@ -268,7 +268,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 6"
+     "Oct 7"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218485406479907"
@@ -514,49 +514,6 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743643779348"
   },
   {
-   "id": "a1218812303299907",
-   "asanaGid": "1218812303299907",
-   "name": "Vtm Cohort Retention",
-   "seat": "Recruitment",
-   "dept": "Recruitment",
-   "cat": "Skill",
-   "platform": "Claude",
-   "owner": "Marc Burbo",
-   "initials": "MB",
-   "status": "ACTIVE",
-   "statusMapped": false,
-   "cls": "E",
-   "cs": null,
-   "locked": false,
-   "lastRun": "Updated Oct 6",
-   "subs": 2,
-   "prompt": "On-demand skill (not a cron): method for VTM cohort retention testing — hired before vs. after Marc's mid-June hiring changes, hire dates, tenure at exit, and a significance test. Runs only when asked, e.g. whether the hiring changes reduced churn.",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
-    "Slack": 1,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Section · ACTIVE",
-     "current"
-    ],
-    [
-     "2 subtasks on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Oct 6"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303299907"
-  },
-  {
    "id": "a1218799810989090",
    "asanaGid": "1218799810989090",
    "name": "Sales Role Vetting",
@@ -672,7 +629,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 7",
+   "lastRun": "Updated Oct 8",
    "subs": 5,
    "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge and Fabiana, and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana (GHL has no \"failed search\" stage today).\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
    "conns": {
@@ -695,11 +652,11 @@
     ],
     [
      "Due",
-     "Oct 7"
+     "Oct 8"
     ],
     [
      "Last activity in Asana",
-     "Oct 7"
+     "Oct 8"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
@@ -1104,6 +1061,49 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810552145"
+  },
+  {
+   "id": "a1218812303299907",
+   "asanaGid": "1218812303299907",
+   "name": "Vtm Cohort Retention",
+   "seat": "Recruitment",
+   "dept": "Recruitment",
+   "cat": "Skill",
+   "platform": "Claude",
+   "owner": "Marc Burbo",
+   "initials": "MB",
+   "status": "ACTIVE",
+   "statusMapped": false,
+   "cls": "E",
+   "cs": null,
+   "locked": false,
+   "lastRun": "Updated Oct 6",
+   "subs": 2,
+   "prompt": "On-demand skill (not a cron): method for VTM cohort retention testing — hired before vs. after Marc's mid-June hiring changes, hire dates, tenure at exit, and a significance test. Runs only when asked, e.g. whether the hiring changes reduced churn.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 1,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · ACTIVE",
+     "current"
+    ],
+    [
+     "2 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 6"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303299907"
   },
   {
    "id": "a1218812303184161",
@@ -2972,7 +2972,7 @@
  "scheduled": [
   [
    "Following up after failed searches · due",
-   "2026-10-07"
+   "2026-10-08"
   ],
   [
    "Canon Index review · Quarterly (EOS)",
