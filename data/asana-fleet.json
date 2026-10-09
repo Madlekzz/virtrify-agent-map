@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-08",
-  "label": "Asana · synced Oct 8, 2026",
+  "syncedAt": "2026-10-09",
+  "label": "Asana · synced Oct 9, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -21,8 +21,8 @@
     "INACTIVE (3 tasks)"
    ],
    "duplicateCustomFields": [
-    "1 task carries two different 'Department' custom fields (gid 1218361443737496 vs 1211678013530219) with conflicting values — used the field present on all 67 tasks (matches canon dept names exactly); ignored: 'CRM database cleanup agent [Duplicate]' (Recruitment vs AI Implementation). Unchanged since the previous sync.",
-    "'Loss prevention agent' also carries two different 'Department' custom fields (gid 1218361443737496 = Sales vs gid 1211678013530219 = Account Management) — used Sales (the field present on all 67 tasks); ignored Account Management. Unchanged since the previous sync."
+    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields (gid 1218361443737496 = Recruitment vs gid 1211678013530219 = AI Implementation) — used Recruitment (the field present on all 67 tasks); ignored AI Implementation. Unchanged since the previous sync.",
+    "'Loss prevention agent' carries two different 'Department' custom fields (gid 1218361443737496 = Sales vs gid 1211678013530219 = Account Management) — used Sales (the field present on all 67 tasks); ignored Account Management. Unchanged since the previous sync."
    ],
    "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Two duplicate Department custom-field conflicts present (see duplicateCustomFields), both unchanged since the previous sync."
   },
@@ -272,6 +272,58 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218485406479907"
+  },
+  {
+   "id": "a1217805332607248",
+   "asanaGid": "1217805332607248",
+   "name": "Following up after failed searches",
+   "seat": "Sales",
+   "dept": "Sales",
+   "cat": "Unset",
+   "platform": "Unset",
+   "owner": "Jorge Duque",
+   "initials": "JD",
+   "status": "Review",
+   "statusMapped": true,
+   "cls": "C",
+   "cs": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "locked": false,
+   "lastRun": "Updated Oct 8",
+   "subs": 5,
+   "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge and Fabiana, and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana (GHL has no \"failed search\" stage today).\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 1,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 1,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · WAITING FOR FEEDBACK OR APPROVAL",
+     "current"
+    ],
+    [
+     "5 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Due",
+     "Oct 8"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 8"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
   },
   {
    "id": "a1218812302938177",
@@ -608,58 +660,6 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799592974841"
-  },
-  {
-   "id": "a1217805332607248",
-   "asanaGid": "1217805332607248",
-   "name": "Following up after failed searches",
-   "seat": "Sales",
-   "dept": "Sales",
-   "cat": "Unset",
-   "platform": "Unset",
-   "owner": "Jorge Duque",
-   "initials": "JD",
-   "status": "Building",
-   "statusMapped": true,
-   "cls": "C",
-   "cs": [
-    1,
-    1,
-    0,
-    0
-   ],
-   "locked": false,
-   "lastRun": "Updated Oct 8",
-   "subs": 5,
-   "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge and Fabiana, and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana (GHL has no \"failed search\" stage today).\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
-    "Slack": 1,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 1,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Section · WORKING ON IT",
-     "current"
-    ],
-    [
-     "5 subtasks on the task",
-     "in Asana"
-    ],
-    [
-     "Due",
-     "Oct 8"
-    ],
-    [
-     "Last activity in Asana",
-     "Oct 8"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
   },
   {
    "id": "a1217387498050713",
@@ -2546,7 +2546,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 6",
+   "lastRun": "Updated Oct 8",
    "subs": 2,
    "prompt": "Would like a report every time we lose a prospect. Needs analysis.\n\n(Context: raised after a lost-search follow-up thread involving detailed client feedback on candidate screening quality and fee transparency; full correspondence lives in Gmail/Asana and is not reproduced here.)",
    "conns": {
@@ -2569,7 +2569,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 6"
+     "Oct 8"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216930368598736"
@@ -2970,10 +2970,6 @@
   ]
  ],
  "scheduled": [
-  [
-   "Following up after failed searches · due",
-   "2026-10-08"
-  ],
   [
    "Canon Index review · Quarterly (EOS)",
    "quarterly"
