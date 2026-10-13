@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-12",
-  "label": "Asana · synced Oct 12, 2026",
+  "syncedAt": "2026-10-13",
+  "label": "Asana · synced Oct 13, 2026",
   "counts": {
    "tasks": 67,
    "sections": 5,
@@ -17,12 +17,12 @@
   },
   "shapeChanges": {
    "unmappedSections": [
-    "ACTIVE (49 tasks)",
+    "ACTIVE (51 tasks)",
     "INACTIVE (3 tasks)"
    ],
    "duplicateCustomFields": [
-    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields (gid 1218361443737496 = Recruitment vs gid 1211678013530219 = AI Implementation) — used Recruitment (the field present on all 67 tasks); ignored the other. Unchanged since the previous sync.",
-    "'Loss prevention agent' carries two different 'Department' custom fields (gid 1218361443737496 = Sales vs gid 1211678013530219 = Account Management) — used Sales (the field present on all 67 tasks); ignored the other. Unchanged since the previous sync."
+    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields (gid 1218361443737496 = Recruitment vs 1211678013530219 = AI Implementation) — used Recruitment (the field present on all 67 tasks); ignored the other. Unchanged since the previous sync.",
+    "'Loss prevention agent' carries two different 'Department' custom fields (gid 1218361443737496 = Sales vs 1211678013530219 = Account Management) — used Sales (the field present on all 67 tasks); ignored the other. Unchanged since the previous sync."
    ],
    "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
   },
@@ -178,84 +178,36 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217420015932968"
   },
   {
-   "id": "a1216037466000588",
-   "asanaGid": "1216037466000588",
-   "name": "Build payroll incident Agent",
-   "seat": "Finance",
-   "dept": "Finance",
+   "id": "a1219412221112146",
+   "asanaGid": "1219412221112146",
+   "name": "Asana L10 Clean Up ",
+   "seat": "Leadership",
+   "dept": "Leadership",
    "cat": "Agent",
-   "platform": "Unset",
-   "owner": "Carlos Monsalve",
-   "initials": "CM",
+   "platform": "GrokBot",
+   "owner": "Ignacio Thielen",
+   "initials": "IT",
    "status": "Idea",
    "statusMapped": true,
-   "cls": "D",
+   "cls": "C",
    "cs": [
     1,
     0,
     0,
     0
    ],
-   "locked": false,
-   "lastRun": "Updated Oct 7",
+   "locked": true,
+   "lastRun": "Updated Oct 12",
    "subs": 1,
-   "prompt": "Automate the full payroll incident workflow — on Asana ticket creation, Víctor reads the ticket, performs prorated pay calculation, updates the Hours & Rates spreadsheet, posts the result to Slack, and marks the ticket complete, eliminating manual data entry between systems.",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 1,
-    "Asana": 1,
-    "Slack": 1,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 1
-   },
-   "runs": [
-    [
-     "Section · IDEAS",
-     "current"
-    ],
-    [
-     "1 subtask on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Oct 7"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216037466000588"
-  },
-  {
-   "id": "a1218485406479907",
-   "asanaGid": "1218485406479907",
-   "name": "LinkedIn Profile Matching Skill",
-   "seat": "Recruitment",
-   "dept": "Recruitment",
-   "cat": "Skill",
-   "platform": "Claude",
-   "owner": "Sonia Thode",
-   "initials": "ST",
-   "status": "Idea",
-   "statusMapped": true,
-   "cls": "E",
-   "cs": [
-    1,
-    0,
-    0,
-    0
-   ],
-   "locked": false,
-   "lastRun": "Updated Oct 7",
-   "subs": 1,
-   "prompt": "A skill that reads a candidate's LinkedIn profile and compares it against the scope of work to determine match, as the sourcing/screening continuation of the candidate-tracking flow. Paused at Sonia's request until next quarter. (Source: meeting with Sonia, Sep 14, 2026.)",
+   "prompt": "Logged in Asana, no scope written yet.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 1,
+    "Asana": 0,
     "Slack": 0,
     "Gmail": 0,
     "Google Calendar": 0,
     "GoHighLevel": 0,
-    "Fathom / Fireflies": 1
+    "Fathom / Fireflies": 0
    },
    "runs": [
     [
@@ -268,10 +220,10 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 7"
+     "Oct 12"
     ]
    ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218485406479907"
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219412221112146"
   },
   {
    "id": "a1217805332607248",
@@ -468,54 +420,6 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810709207"
-  },
-  {
-   "id": "a1216219890604010",
-   "asanaGid": "1216219890604010",
-   "name": "Dashboard Interactivo EOS - Quarterly Sessions con Gerardo (Ignacio)",
-   "seat": "Leadership",
-   "dept": "Leadership",
-   "cat": "Deliverables",
-   "platform": "Netlify",
-   "owner": "Ignacio Thielen",
-   "initials": "IT",
-   "status": "Review",
-   "statusMapped": true,
-   "cls": "C",
-   "cs": [
-    1,
-    1,
-    1,
-    0
-   ],
-   "locked": false,
-   "lastRun": "Updated Sep 10",
-   "subs": 6,
-   "prompt": "Ignacio requested an interactive dashboard to replace the spreadsheets and loose attachments used in the quarterly EOS sessions with coach Gerardo — one navigable, live-editable dashboard covering check-in, prior-quarter rocks review, the EOS model (Data/Process/Traction/Issues/People), next-quarter rocks, key issues, and next steps. Andreina (with Italo) builds it; Ignacio feeds it from the C-EOS skills in his Claude Code. The People/People Analyzer section pulls from a confidential Asana project and needs access control before the leadership team gets it.",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 1,
-    "Asana": 1,
-    "Slack": 0,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 1
-   },
-   "runs": [
-    [
-     "Section · WAITING FOR FEEDBACK OR APPROVAL",
-     "current"
-    ],
-    [
-     "6 subtasks on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Sep 10"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216219890604010"
   },
   {
    "id": "a1218743643779348",
@@ -762,6 +666,92 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217383960053656"
   },
   {
+   "id": "a1216219890604010",
+   "asanaGid": "1216219890604010",
+   "name": "Dashboard Interactivo EOS - Quarterly Sessions con Gerardo (Ignacio)",
+   "seat": "Leadership",
+   "dept": "Leadership",
+   "cat": "Deliverables",
+   "platform": "Netlify",
+   "owner": "Ignacio Thielen",
+   "initials": "IT",
+   "status": "ACTIVE",
+   "statusMapped": false,
+   "cls": "C",
+   "cs": null,
+   "locked": false,
+   "lastRun": "Updated Oct 12",
+   "subs": 6,
+   "prompt": "Ignacio requested an interactive dashboard to replace the spreadsheets and loose attachments used in the quarterly EOS sessions with coach Gerardo — one navigable, live-editable dashboard covering check-in, prior-quarter rocks review, the EOS model (Data/Process/Traction/Issues/People), next-quarter rocks, key issues, and next steps. Andreina (with Italo) builds it; Ignacio feeds it from the C-EOS skills in his Claude Code. The People/People Analyzer section pulls from a confidential Asana project and needs access control before the leadership team gets it.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 1,
+    "Asana": 1,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 1
+   },
+   "runs": [
+    [
+     "Section · ACTIVE",
+     "current"
+    ],
+    [
+     "6 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 12"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216219890604010"
+  },
+  {
+   "id": "a1218485406479907",
+   "asanaGid": "1218485406479907",
+   "name": "LinkedIn Profile Matching Skill",
+   "seat": "Recruitment",
+   "dept": "Recruitment",
+   "cat": "Skill",
+   "platform": "Claude",
+   "owner": "Sonia Thode",
+   "initials": "ST",
+   "status": "ACTIVE",
+   "statusMapped": false,
+   "cls": "E",
+   "cs": null,
+   "locked": false,
+   "lastRun": "Updated Oct 12",
+   "subs": 1,
+   "prompt": "A skill that reads a candidate's LinkedIn profile and compares it against the scope of work to determine match, as the sourcing/screening continuation of the candidate-tracking flow. Paused at Sonia's request until next quarter. (Source: meeting with Sonia, Sep 14, 2026.)",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 1,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 1
+   },
+   "runs": [
+    [
+     "Section · ACTIVE",
+     "current"
+    ],
+    [
+     "1 subtask on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 12"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218485406479907"
+  },
+  {
    "id": "a1218460672521789",
    "asanaGid": "1218460672521789",
    "name": "Onboarding Handover Notes",
@@ -776,7 +766,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 12",
    "subs": 1,
    "prompt": "Analyzes calendar and Fathom meetings to generate an onboarding handover summary for Abraham and Alejandra (Account Management). Currently runs manually per new client; desired state is a Scheduled Task ~2 weeks after client start, with Paola reviewing the draft before sending in the interim. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
    "conns": {
@@ -799,7 +789,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460672521789"
@@ -859,8 +849,8 @@
    "dept": "Sales",
    "cat": "Skill",
    "platform": "Viktor",
-   "owner": "Yecsibel Parisca",
-   "initials": "YP",
+   "owner": "Unassigned",
+   "initials": "—",
    "status": "ACTIVE",
    "statusMapped": false,
    "cls": "C",
@@ -1155,15 +1145,15 @@
    "seat": "Finance",
    "dept": "Finance",
    "cat": "Agent",
-   "platform": "Viktor",
+   "platform": "Claude",
    "owner": "Carlos Monsalve",
    "initials": "CM",
    "status": "ACTIVE",
    "statusMapped": false,
    "cls": "D",
    "cs": null,
-   "locked": true,
-   "lastRun": "Updated Sep 28",
+   "locked": false,
+   "lastRun": "Updated Oct 12",
    "subs": 1,
    "prompt": "Weekly cron (Mondays) used by Carlos Monsalve (Finance) that checks each active VTM's amounts match between the Asana project VA/Client Profit Margin (~131 tasks) and the VTMs DASHBOARD sheet's VTMs Directory tab, DMing him the diffs — amount/rate/margin mismatches, sheet VTMs missing Asana tasks, Asana tasks for inactive sheet VTMs, and (since Sep 15) Directory FT/PT mismatches.",
    "conns": {
@@ -1186,7 +1176,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 28"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799694427538"
@@ -1198,15 +1188,15 @@
    "seat": "Finance",
    "dept": "Finance",
    "cat": "Agent",
-   "platform": "Viktor",
+   "platform": "Claude",
    "owner": "Carlos Monsalve",
    "initials": "CM",
    "status": "ACTIVE",
    "statusMapped": false,
    "cls": "D",
    "cs": null,
-   "locked": true,
-   "lastRun": "Updated Sep 23",
+   "locked": false,
+   "lastRun": "Updated Oct 12",
    "subs": 2,
    "prompt": "Used by Carlos Monsalve (Finance), who alone receives the private DM report and decides escalation: tracks mid-month invoice changes (credits, package increases, extra hours, churn) across Asana Finance/Client Bills tickets, the Financials 2026 sheet, and GHL recurring invoices (read-only), marking each incidence reconciled or pending. Cron runs Mondays 8:30am Caracas for the prior week, plus a reminder on days 20-25 before GHL bills on the 25th.",
    "conns": {
@@ -1229,7 +1219,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810609698"
@@ -1285,8 +1275,8 @@
    "dept": "Sales",
    "cat": "Agent",
    "platform": "Viktor",
-   "owner": "Yecsibel Parisca",
-   "initials": "YP",
+   "owner": "Unassigned",
+   "initials": "—",
    "status": "ACTIVE",
    "statusMapped": false,
    "cls": "C",
@@ -1538,7 +1528,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 12",
    "subs": 0,
    "prompt": "Renames and sorts finished NotebookLM Studio artifacts, prepending the module.lesson number to every artifact title across Studio types (videos, audios, infographics, reports, mind maps, quizzes) and leaving the list sorted ascending. Last step in the Virtrify course production pipeline, after notebooklm-studio-generator. (Owner/requester context: Mariam Troche, QA & Learning Specialist.)",
    "conns": {
@@ -1557,7 +1547,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639068593070"
@@ -1577,7 +1567,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 12",
    "subs": 0,
    "prompt": "Generates NotebookLM Studio content from already-written prompts, running a batch of pre-written customization prompts inside a notebook's Studio panel (Video Overviews, Audio Overviews, Slide Deck, Infographics) via Claude in Chrome. Middle step in the Virtrify course production pipeline, between virtrify-notebooklm-prompts and notebooklm-studio-renamer.",
    "conns": {
@@ -1596,7 +1586,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639162798866"
@@ -1831,7 +1821,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 12",
    "subs": 1,
    "prompt": "Condensed one-pager version of the 90-day onboarding plan for quick stakeholder sharing. Live Claude skill; pairs with the 90-Day Onboarding Plan. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
    "conns": {
@@ -1854,7 +1844,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460673856037"
@@ -1874,7 +1864,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 12",
    "subs": 1,
    "prompt": "From a client Scope of Work (SoW), creates a 30-60-90 day onboarding plan plus proposed KPIs. Live Claude skill used by Paola, manual trigger; the Onboarding One-Pager is the short version of this plan. (Source: Fathom AI Optimization w/ Paola Gomez, 2026-09-11.)",
    "conns": {
@@ -1897,7 +1887,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460618028653"
@@ -2128,7 +2118,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 12",
    "subs": 2,
    "prompt": "Set up and run a project interview for candidates applying to the EOS position, and make sure applicants come prepared: define the interview format and deliverables, create clear prep instructions, share prep materials ahead of the interview, and evaluate each candidate against the EOS role expectations.",
    "conns": {
@@ -2151,7 +2141,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217142224662647"
@@ -2253,7 +2243,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 3",
+   "lastRun": "Updated Oct 12",
    "subs": 6,
    "prompt": "While the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses: detect \"incorrect\" images (e.g. the course background-template header appearing when it shouldn't) and flag them for manual correction. Needs a clear definition of what makes an image \"incorrect,\" trained against example images from Paola, before it can be tested for accuracy.",
    "conns": {
@@ -2276,7 +2266,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 3"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217145575745850"
@@ -2468,7 +2458,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 30",
+   "lastRun": "Updated Oct 12",
    "subs": 0,
    "prompt": "Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role, in a standalone application (same as the L10 simulation activity) gated by a GHL contact ID inserted into the link; on completion, a Slack notification carries the candidate's submission. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2487,7 +2477,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 30"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740321676"
@@ -2507,7 +2497,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 30",
+   "lastRun": "Updated Oct 12",
    "subs": 0,
    "prompt": "Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude, in a standalone application gated by a GHL contact ID inserted into the link — only reachable by entering through GHL. On completion, a Slack notification carries a summary of the candidate's L10 simulation. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2526,7 +2516,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 30"
+     "Oct 12"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740272350"
