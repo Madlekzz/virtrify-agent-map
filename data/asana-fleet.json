@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-14",
-  "label": "Asana · synced Oct 14, 2026",
+  "syncedAt": "2026-10-15",
+  "label": "Asana · synced Oct 15, 2026",
   "counts": {
    "tasks": 68,
    "sections": 5,
@@ -518,54 +518,6 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743643779348"
   },
   {
-   "id": "a1218799810989090",
-   "asanaGid": "1218799810989090",
-   "name": "Sales Role Vetting",
-   "seat": "Recruitment",
-   "dept": "Recruitment",
-   "cat": "Skill",
-   "platform": "Viktor",
-   "owner": "Fabiana Galindez, Marc Burbo",
-   "initials": "FG",
-   "status": "Review",
-   "statusMapped": true,
-   "cls": "E",
-   "cs": [
-    1,
-    1,
-    1,
-    0
-   ],
-   "locked": true,
-   "lastRun": "Updated Sep 23",
-   "subs": 1,
-   "prompt": "On-demand skill (no cron), requested by Marc Burbo (Aug 18), which produced the client-facing PDF \"Interviewing to Build a Successful Virtual Sales Team.\" Fabiana Galindez owns the playbook in Recruitment L10; Abraham/Alejandra Lovera asked for interviews of commercial VTMs clients would rehire, but the internal playbook is on hold until roughly 5 success cases exist (only 2 so far).",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
-    "Slack": 1,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Section · WAITING FOR FEEDBACK OR APPROVAL",
-     "current"
-    ],
-    [
-     "1 subtask on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Sep 23"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810989090"
-  },
-  {
    "id": "a1218799592974841",
    "asanaGid": "1218799592974841",
    "name": "Recruitment Kpis",
@@ -585,7 +537,7 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Oct 14",
    "subs": 1,
    "prompt": "Logged in the Claude SHARED skills inventory (Recruiting folder, 2026-09-23) for inventory purposes; description TBD.",
    "conns": {
@@ -599,6 +551,10 @@
    },
    "runs": [
     [
+     "Completed in Asana",
+     "Oct 14"
+    ],
+    [
      "Section · WAITING FOR FEEDBACK OR APPROVAL",
      "current"
     ],
@@ -608,10 +564,58 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Oct 14"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799592974841"
+  },
+  {
+   "id": "a1218799810989090",
+   "asanaGid": "1218799810989090",
+   "name": "Sales Role Vetting",
+   "seat": "Recruitment",
+   "dept": "Recruitment",
+   "cat": "Skill",
+   "platform": "Viktor",
+   "owner": "Fabiana Galindez, Marc Burbo",
+   "initials": "FG",
+   "status": "Building",
+   "statusMapped": true,
+   "cls": "E",
+   "cs": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "locked": true,
+   "lastRun": "Updated Oct 14",
+   "subs": 1,
+   "prompt": "On-demand skill (no cron), requested by Marc Burbo (Aug 18), which produced the client-facing PDF \"Interviewing to Build a Successful Virtual Sales Team.\" Fabiana Galindez owns the playbook in Recruitment L10; Abraham/Alejandra Lovera asked for interviews of commercial VTMs clients would rehire, but the internal playbook is on hold until roughly 5 success cases exist (only 2 so far).",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 1,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · WORKING ON IT",
+     "current"
+    ],
+    [
+     "1 subtask on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 14"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810989090"
   },
   {
    "id": "a1217387498050713",
@@ -1158,7 +1162,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Oct 13",
+   "lastRun": "Updated Oct 14",
    "subs": 1,
    "prompt": "Skill, not a cron: runs when James names a company/website and asks for research before a discovery call, strategy session, or blueprint, building a Discovery Research Pack from Sales Playbook v2.0. The related cron /james/meeting-prep reuses this skill's templates for pre-meeting dossiers; the research itself has no schedule.",
    "conns": {
@@ -1181,7 +1185,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 13"
+     "Oct 14"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303184161"
@@ -2992,7 +2996,12 @@
    "#3ecf72"
   ],
   [
-   "Predictive Index Client and VTM introduction blocked · GrokBot not cleared above class A",
+   "Recruitment Kpis completed",
+   "Oct 14",
+   "#3ecf72"
+  ],
+  [
+   "Course Assignment Bot (Paid Invoice → GHL course link) blocked · GrokBot not cleared above class A",
    "open",
    "#e5484d"
   ],
@@ -3002,7 +3011,7 @@
    "#ea5b0c"
   ],
   [
-   "The https://app.asana.com/0/1215967034683172/list is progressing on track as of Sep 18, 20",
+   "The https://app.asana.com/0/1215967034683172/list is progressing on track as of Sep 18, 2…",
    "project status",
    "#96968f"
   ]
