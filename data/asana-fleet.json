@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-20",
-  "label": "Asana · synced Oct 20, 2026",
+  "syncedAt": "2026-10-21",
+  "label": "Asana · synced Oct 21, 2026",
   "counts": {
    "tasks": 68,
    "sections": 5,
@@ -293,7 +293,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 5,
    "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15, id 3290966) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge (Sales) and Fabiana (Recruiting), and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana — GHL has no \"failed search\" stage today; closest candidates are Full Pre Sales → Client Lost / On Hold / Follow-Up Nurture plus status Lost.\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
    "conns": {
@@ -320,7 +320,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
@@ -775,7 +775,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 1,
    "prompt": "A skill that reads a candidate's LinkedIn profile and compares it against the scope of work to determine match, as the sourcing/screening continuation of the candidate-tracking flow. Paused at Sonia's request until next quarter. (Source: meeting with Sonia, Sep 14, 2026.)",
    "conns": {
@@ -798,7 +798,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218485406479907"
@@ -1162,7 +1162,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Oct 14",
+   "lastRun": "Updated Oct 20",
    "subs": 1,
    "prompt": "Skill, not a cron: runs when James names a company/website and asks for research before a discovery call, strategy session, or blueprint, building a Discovery Research Pack from Sales Playbook v2.0. The related cron /james/meeting-prep reuses this skill's templates for pre-meeting dossiers; the research itself has no schedule.",
    "conns": {
@@ -1185,7 +1185,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 14"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303184161"
@@ -1537,7 +1537,7 @@
    "cls": "D",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 1,
    "prompt": "Five automated weekly reports (Revenue, Sales, Trend, Collections, Monthly Sales) built in Víctor; a scheduling bug was fixed June 30 and all five were set to auto-run starting July 3. Ongoing work is monitoring schedule stability and maintaining the QuickBooks connection.",
    "conns": {
@@ -1560,7 +1560,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216169501250775"
@@ -2217,7 +2217,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 0,
    "prompt": "Automate creation of LinkedIn Boolean search strings — triggered by a new SOW in Asana, the bot reads the SOW, generates the Boolean string, and reports it to Sonia; human outreach stays manual.",
    "conns": {
@@ -2236,7 +2236,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972401153104"
@@ -2256,7 +2256,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 8,
    "prompt": "Refine the candidate pipeline dashboard: multi-stage document tracking (Pending Docs → Document Sent), an icebox for rejected candidates, dynamic position-specific views, an Add Candidate button, and the Virtrify logo.",
    "conns": {
@@ -2279,7 +2279,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972404045641"
@@ -2471,7 +2471,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 2,
    "prompt": "Automate extracting interview data (salary, availability, Fathom link, LinkedIn profile) and adding it to the correct candidate's task in the Asana Candidate Tracking project.",
    "conns": {
@@ -2494,7 +2494,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972564621754"
@@ -2514,7 +2514,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 0,
    "prompt": "Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role, in a standalone application (same as the L10 simulation activity) gated by a GHL contact ID inserted into the link; on completion, a Slack notification carries the candidate's submission. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2533,7 +2533,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740321676"
@@ -2553,7 +2553,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 19",
+   "lastRun": "Updated Oct 20",
    "subs": 0,
    "prompt": "Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude, in a standalone application gated by a GHL contact ID inserted into the link — only reachable by entering through GHL. On completion, a Slack notification carries a summary of the candidate's L10 simulation. Built by Italo Apruzzese via Claude Code.",
    "conns": {
@@ -2572,7 +2572,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 19"
+     "Oct 20"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740272350"
