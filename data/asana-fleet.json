@@ -2,10 +2,10 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-21",
-  "label": "Asana · synced Oct 21, 2026",
+  "syncedAt": "2026-10-22",
+  "label": "Asana · synced Oct 22, 2026",
   "counts": {
-   "tasks": 68,
+   "tasks": 70,
    "sections": 5,
    "departments": 8
   },
@@ -21,14 +21,109 @@
     "INACTIVE (3 tasks)"
    ],
    "duplicateCustomFields": [
-    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields (gid 1218361443737496 = Recruitment vs 1211678013530219 = AI Implementation) — used Recruitment (the field present on all 68 tasks); ignored the other. Unchanged since the previous sync.",
-    "'Loss prevention agent' carries two different 'Department' custom fields (gid 1218361443737496 = Sales vs 1211678013530219 = Account Management) — used Sales (the field present on all 68 tasks); ignored the other. Unchanged since the previous sync."
+    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields (gid 1218361443737496 = Recruitment vs 1211678013530219 = AI Implementation) — used Recruitment (the field present on all 70 tasks); ignored the other. Unchanged since the previous sync."
    ],
-   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
+   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Duplicate Department custom-field conflict present (see duplicateCustomFields)."
   },
   "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
  "bots": [
+  {
+   "id": "a1219742521168495",
+   "asanaGid": "1219742521168495",
+   "name": "Implementations Deliverables Dashboard ",
+   "seat": "Innovation Lab",
+   "dept": "Innovation Lab",
+   "cat": "Deliverables",
+   "platform": "Claude",
+   "owner": "Andreina Matheus",
+   "initials": "AM",
+   "status": "Idea",
+   "statusMapped": true,
+   "cls": "B",
+   "cs": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "locked": false,
+   "lastRun": "Updated Oct 21",
+   "subs": 2,
+   "prompt": "Dashboard that helps the Implementation team deliver SOPs to the VTM hired by the client once Implementation is finished.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · IDEAS",
+     "current"
+    ],
+    [
+     "2 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 21"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219742521168495"
+  },
+  {
+   "id": "a1219742521168446",
+   "asanaGid": "1219742521168446",
+   "name": "Budget Report ",
+   "seat": "Finance",
+   "dept": "Finance",
+   "cat": "Agent",
+   "platform": "GrokBot",
+   "owner": "Juan C Leal",
+   "initials": "JC",
+   "status": "Idea",
+   "statusMapped": true,
+   "cls": "D",
+   "cs": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "locked": true,
+   "lastRun": "Updated Oct 21",
+   "subs": 12,
+   "prompt": "A bot that runs automatically to create the 2027 budget for the Leadership department.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · IDEAS",
+     "current"
+    ],
+    [
+     "12 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 21"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219742521168446"
+  },
   {
    "id": "a1218789446479907",
    "asanaGid": "1218789446479907",
@@ -293,7 +388,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 20",
+   "lastRun": "Updated Oct 21",
    "subs": 5,
    "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15, id 3290966) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge (Sales) and Fabiana (Recruiting), and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana — GHL has no \"failed search\" stage today; closest candidates are Full Pre Sales → Client Lost / On Hold / Follow-Up Nurture plus status Lost.\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
    "conns": {
@@ -320,7 +415,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 20"
+     "Oct 21"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
@@ -489,7 +584,7 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Sep 23",
+   "lastRun": "Updated Oct 21",
    "subs": 1,
    "prompt": "Keeps the Virtrify Brain current after each department L10: cross-checks the recording/transcript plus the Asana L10 against the Brain docs and proposes diffs, writing to the Brain only with approval. Not a personal assistant and not Implementation.",
    "conns": {
@@ -512,7 +607,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 23"
+     "Oct 21"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218743643779348"
@@ -689,7 +784,7 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Sep 18",
+   "lastRun": "Updated Oct 21",
    "subs": 1,
    "prompt": "Build the prompts/crons for: (1) capturing LinkedIn leads and conversations and loading them into GHL with notes and follow-up tasks; (2) automatic Discovery Call summaries into GHL; (3) LinkedIn content generation — to be set up together in a Friday session.",
    "conns": {
@@ -711,8 +806,12 @@
      "in Asana"
     ],
     [
+     "Due",
+     "Oct 23"
+    ],
+    [
      "Last activity in Asana",
-     "Sep 18"
+     "Oct 21"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217383960053656"
@@ -1162,7 +1261,7 @@
    "cls": "C",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Oct 20",
+   "lastRun": "Updated Oct 21",
    "subs": 1,
    "prompt": "Skill, not a cron: runs when James names a company/website and asks for research before a discovery call, strategy session, or blueprint, building a Discovery Research Pack from Sales Playbook v2.0. The related cron /james/meeting-prep reuses this skill's templates for pre-meeting dossiers; the research itself has no schedule.",
    "conns": {
@@ -1185,7 +1284,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 20"
+     "Oct 21"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303184161"
@@ -1748,7 +1847,7 @@
    "cls": "D",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 21",
    "subs": 3,
    "prompt": "Configure Juan's access to the Claude Design financial dashboard HTML file on his new HP laptop, and establish the workflow for updating the dashboard monthly with new Excel data after Q2 close and beyond.",
    "conns": {
@@ -1771,7 +1870,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 21"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216170521681330"
@@ -2581,8 +2680,8 @@
    "id": "a1216930368598736",
    "asanaGid": "1216930368598736",
    "name": "Loss prevention agent",
-   "seat": "Sales",
-   "dept": "Sales",
+   "seat": "Account Management",
+   "dept": "Account Management",
    "cat": "Agent",
    "platform": "Claude",
    "owner": "Jorge Duque",
@@ -2995,7 +3094,7 @@
  "gov": [],
  "activity": [
   [
-   "Fleet synced from Asana · 68 tasks, 8 departments",
+   "Fleet synced from Asana · 70 tasks, 8 departments",
    "today",
    "#3ecf72"
   ],
@@ -3018,6 +3117,10 @@
  "scheduled": [
   [
    "Following up after failed searches · due",
+   "2026-10-23"
+  ],
+  [
+   "Linkedln -> GHL Agent · due",
    "2026-10-23"
   ],
   [
