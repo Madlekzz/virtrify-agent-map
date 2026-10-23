@@ -2,10 +2,10 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-22",
-  "label": "Asana · synced Oct 22, 2026",
+  "syncedAt": "2026-10-23",
+  "label": "Asana · synced Oct 23, 2026",
   "counts": {
-   "tasks": 70,
+   "tasks": 71,
    "sections": 5,
    "departments": 8
   },
@@ -20,10 +20,14 @@
     "ACTIVE (51 tasks)",
     "INACTIVE (3 tasks)"
    ],
-   "duplicateCustomFields": [
-    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields (gid 1218361443737496 = Recruitment vs 1211678013530219 = AI Implementation) — used Recruitment (the field present on all 70 tasks); ignored the other. Unchanged since the previous sync."
+   "unknownPlatforms": [
+    "GHL (1 task)"
    ],
-   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. Duplicate Department custom-field conflict present (see duplicateCustomFields)."
+   "duplicateCustomFields": [
+    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields with conflicting values (AI Implementation vs Recruitment) — used \"Recruitment\" (the field present on all 71 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219).",
+    "'Loss prevention agent' carries two different 'Department' custom fields with conflicting values (Account Management vs Sales) — used \"Sales\" (the field present on all 71 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219)."
+   ],
+   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. A new Platform option not in the known list (Claude/Viktor/GrokBot/Netlify/Asana/Google Drive) appeared on the GHL custom field — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
   },
   "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
@@ -418,7 +422,7 @@
      "Oct 21"
     ]
    ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217805332607248"
+   "url": "https://app.asana.com/1/1207327179702218/project/1211668114873563/task/1217805332607248"
   },
   {
    "id": "a1218812302938177",
@@ -665,6 +669,54 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799592974841"
   },
   {
+   "id": "a1219648437767939",
+   "asanaGid": "1219648437767939",
+   "name": "Implementation Satisfaction Survey 🥔",
+   "seat": "Innovation Lab",
+   "dept": "Innovation Lab",
+   "cat": "Automation",
+   "platform": "GHL",
+   "owner": "Italo Apruzzese",
+   "initials": "IA",
+   "status": "Building",
+   "statusMapped": true,
+   "cls": "B",
+   "cs": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "locked": false,
+   "lastRun": "Updated Oct 22",
+   "subs": 6,
+   "prompt": "A client-facing survey asking how their implementation is going, giving Virtrify a simple tool to track satisfaction and surface issues early during rollout.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · WORKING ON IT",
+     "current"
+    ],
+    [
+     "6 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 22"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219648437767939"
+  },
+  {
    "id": "a1218799810989090",
    "asanaGid": "1218799810989090",
    "name": "Sales Role Vetting",
@@ -784,7 +836,7 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Oct 21",
+   "lastRun": "Updated Oct 23",
    "subs": 1,
    "prompt": "Build the prompts/crons for: (1) capturing LinkedIn leads and conversations and loading them into GHL with notes and follow-up tasks; (2) automatic Discovery Call summaries into GHL; (3) LinkedIn content generation — to be set up together in a Friday session.",
    "conns": {
@@ -811,7 +863,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 21"
+     "Oct 23"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217383960053656"
@@ -1839,15 +1891,15 @@
    "seat": "Finance",
    "dept": "Finance",
    "cat": "Agent",
-   "platform": "Claude",
+   "platform": "GrokBot",
    "owner": "Juan C Leal",
    "initials": "JC",
    "status": "ACTIVE",
    "statusMapped": false,
    "cls": "D",
    "cs": null,
-   "locked": false,
-   "lastRun": "Updated Oct 21",
+   "locked": true,
+   "lastRun": "Updated Oct 22",
    "subs": 3,
    "prompt": "Configure Juan's access to the Claude Design financial dashboard HTML file on his new HP laptop, and establish the workflow for updating the dashboard monthly with new Excel data after Q2 close and beyond.",
    "conns": {
@@ -1870,7 +1922,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 21"
+     "Oct 22"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216170521681330"
@@ -1890,7 +1942,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 22",
    "subs": 1,
    "prompt": "Use Víctor to automate monthly BTM invoice verification — triggered by a new invoice posted in Slack, compare against the master Hours and Rates Excel file and flag discrepancies.",
    "conns": {
@@ -1913,7 +1965,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 22"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972564622807"
@@ -1933,7 +1985,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 22",
    "subs": 1,
    "prompt": "Replaces Alejandra's manual Excel historial for BTM one-on-ones and the Claude chat she uses as a mini-assistant before meetings: hourly sync pulls calendar/Fathom 1:1 summaries into her Excel historial, answers pre-meeting questions like \"when was my last 1:1 with X,\" and a Friday-morning check flags BTMs who still owe their quarterly 1:1. Longer-term destination is an Asana project (one ticket per person) once that project is fixed; Excel is Phase A.",
    "conns": {
@@ -1956,7 +2008,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 22"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218361621402542"
@@ -2230,7 +2282,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 29",
+   "lastRun": "Updated Oct 22",
    "subs": 2,
    "prompt": "A Claude skill that builds a data-backed justification for a BTM's annual salary increase, reviewing that BTM's Fathom one-on-one recordings and their monthly reports from the last two years to summarize performance evidence for the Account Manager. Used by Account Managers (Owners: Alejandra Lovera, Abraham Valery); requires Fathom Premium with a shared group and consistently named \"One-on-one with [BTM]\" recordings, and never includes the BTM's salary in emails. (Source: \"Claude Skill for Salary increases and monthly reports audits\" call, Aug 21, 2026.)",
    "conns": {
@@ -2253,7 +2305,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 29"
+     "Oct 22"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217688895056778"
@@ -2680,8 +2732,8 @@
    "id": "a1216930368598736",
    "asanaGid": "1216930368598736",
    "name": "Loss prevention agent",
-   "seat": "Account Management",
-   "dept": "Account Management",
+   "seat": "Sales",
+   "dept": "Sales",
    "cat": "Agent",
    "platform": "Claude",
    "owner": "Jorge Duque",
@@ -2691,7 +2743,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 15",
+   "lastRun": "Updated Oct 22",
    "subs": 2,
    "prompt": "Would like a report every time we lose a prospect. Needs analysis.\n\n(Context: raised after a lost-search follow-up thread involving detailed client feedback on candidate screening quality and fee transparency; full correspondence lives in Gmail/Asana and is not reproduced here.)",
    "conns": {
@@ -2714,7 +2766,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 15"
+     "Oct 22"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216930368598736"
@@ -3094,12 +3146,12 @@
  "gov": [],
  "activity": [
   [
-   "Fleet synced from Asana · 70 tasks, 8 departments",
+   "Fleet synced from Asana · 71 tasks, 8 departments",
    "today",
    "#3ecf72"
   ],
   [
-   "Course Assignment Bot (Paid Invoice → GHL course link) blocked · GrokBot not cleared above class A",
+   "Financial Dashboard Agent blocked · GrokBot not cleared above class A",
    "open",
    "#e5484d"
   ],
