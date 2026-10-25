@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-24",
-  "label": "Asana · synced Oct 24, 2026",
+  "syncedAt": "2026-10-25",
+  "label": "Asana · synced Oct 25, 2026",
   "counts": {
    "tasks": 71,
    "sections": 5,
@@ -392,7 +392,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 23",
+   "lastRun": "Updated Oct 24",
    "subs": 5,
    "prompt": "Who is following up with prospects where we had a failed search? They didn't dislike Virtrify, just the candidates shown — there may be a process gap here since no one currently owns following back up if a better match is later found.\n\nGrok agent \"Failed Search\" (Factory, 2026-09-15, id 3290966) on GrokBot + GoHighLevel detects/parks re-engageable failed searches, sends cadence nudges at day 14/30/monthly to Jorge (Sales) and Fabiana (Recruiting), and routes any better match through an internal packet Jorge must approve before any client message. Go-live needs a GHL stage mapping confirmed with Jorge and Fabiana — GHL has no \"failed search\" stage today; closest candidates are Full Pre Sales → Client Lost / On Hold / Follow-Up Nurture plus status Lost.\n\n(Raised by Alex Miranda, Aug 24, 2026.)",
    "conns": {
@@ -406,6 +406,10 @@
    },
    "runs": [
     [
+     "Completed in Asana",
+     "Oct 24"
+    ],
+    [
      "Section · WAITING FOR FEEDBACK OR APPROVAL",
      "current"
     ],
@@ -415,11 +419,11 @@
     ],
     [
      "Due",
-     "Oct 23"
+     "Oct 26"
     ],
     [
      "Last activity in Asana",
-     "Oct 23"
+     "Oct 24"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1211668114873563/task/1217805332607248"
@@ -883,7 +887,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 12",
+   "lastRun": "Updated Oct 25",
    "subs": 6,
    "prompt": "Ignacio requested an interactive dashboard to replace the spreadsheets and loose attachments used in the quarterly EOS sessions with coach Gerardo — one navigable, live-editable dashboard covering check-in, prior-quarter rocks review, the EOS model (Data/Process/Traction/Issues/People), next-quarter rocks, key issues, and next steps. Andreina (with Italo) builds it; Ignacio feeds it from the C-EOS skills in his Claude Code. The People/People Analyzer section pulls from a confidential Asana project and needs access control before the leadership team gets it.",
    "conns": {
@@ -906,7 +910,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 12"
+     "Oct 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216219890604010"
@@ -1942,7 +1946,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 23",
+   "lastRun": "Updated Oct 25",
    "subs": 1,
    "prompt": "Use Víctor to automate monthly BTM invoice verification — triggered by a new invoice posted in Slack, compare against the master Hours and Rates Excel file and flag discrepancies.",
    "conns": {
@@ -1965,7 +1969,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 23"
+     "Oct 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972564622807"
@@ -2368,7 +2372,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 20",
+   "lastRun": "Updated Oct 25",
    "subs": 0,
    "prompt": "Automate creation of LinkedIn Boolean search strings — triggered by a new SOW in Asana, the bot reads the SOW, generates the Boolean string, and reports it to Sonia; human outreach stays manual.",
    "conns": {
@@ -2387,7 +2391,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 20"
+     "Oct 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972401153104"
@@ -2407,7 +2411,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 20",
+   "lastRun": "Updated Oct 25",
    "subs": 8,
    "prompt": "Refine the candidate pipeline dashboard: multi-stage document tracking (Pending Docs → Document Sent), an icebox for rejected candidates, dynamic position-specific views, an Add Candidate button, and the Virtrify logo.",
    "conns": {
@@ -2430,7 +2434,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 20"
+     "Oct 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1215972404045641"
@@ -3148,6 +3152,11 @@
   [
    "Fleet synced from Asana · 71 tasks, 8 departments",
    "today",
+   "#3ecf72"
+  ],
+  [
+   "Following up after failed searches completed",
+   "Oct 24",
    "#3ecf72"
   ],
   [
