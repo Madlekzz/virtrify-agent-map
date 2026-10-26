@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-25",
-  "label": "Asana · synced Oct 25, 2026",
+  "syncedAt": "2026-10-26",
+  "label": "Asana · synced Oct 26, 2026",
   "counts": {
    "tasks": 71,
    "sections": 5,
@@ -840,9 +840,9 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Oct 23",
+   "lastRun": "Updated Oct 26",
    "subs": 1,
-   "prompt": "Build the prompts/crons for: (1) capturing LinkedIn leads and conversations and loading them into GHL with notes and follow-up tasks; (2) automatic Discovery Call summaries into GHL; (3) LinkedIn content generation — to be set up together in a Friday session.",
+   "prompt": "Build the prompts/crons for: (1) capturing LinkedIn leads and conversations and loading them into GHL with notes and follow-up tasks; (2) automatic Discovery Call summaries into GHL; (3) LinkedIn content generation. Have them ready to set up together in Friday's session.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -867,7 +867,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 23"
+     "Oct 26"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217383960053656"
@@ -2247,9 +2247,9 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Sep 15",
+   "lastRun": "Updated Oct 25",
    "subs": 0,
-   "prompt": "Automate movement of client cards between pipeline stages (e.g., New Active → 30-Day Check-in) in the Post Sales Management Asana project based on elapsed time, eliminating a manual step. Coordinate with Héctor before implementing, as he owns Asana automations.",
+   "prompt": "Automate movement of client cards between pipeline stages (e.g., New Active → 30-Day Check-in) in the Post Sales Management Asana project based on elapsed time, eliminating a manual step. Coordinate with Héctor before implementing, as he owns Asana automations. (Source: https://fathom.video/calls/730210917?tab=summary&timestamp=292.0.)",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 1,
@@ -2266,7 +2266,7 @@
     ],
     [
      "Last activity in Asana",
-     "Sep 15"
+     "Oct 25"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216170542622181"
