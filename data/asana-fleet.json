@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-29",
-  "label": "Asana · synced Oct 29, 2026",
+  "syncedAt": "2026-10-30",
+  "label": "Asana · synced Oct 30, 2026",
   "counts": {
    "tasks": 73,
    "sections": 6,
@@ -17,7 +17,7 @@
   },
   "shapeChanges": {
    "unmappedSections": [
-    "ACTIVE (46 tasks)",
+    "ACTIVE (48 tasks)",
     "INACTIVE (6 tasks)"
    ],
    "unknownPlatforms": [
@@ -227,54 +227,6 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217420015932968"
-  },
-  {
-   "id": "a1219412221112146",
-   "asanaGid": "1219412221112146",
-   "name": "Asana L10 Clean Up ",
-   "seat": "Leadership",
-   "dept": "Leadership",
-   "cat": "Agent",
-   "platform": "GrokBot",
-   "owner": "Ignacio Thielen",
-   "initials": "IT",
-   "status": "Idea",
-   "statusMapped": true,
-   "cls": "C",
-   "cs": [
-    1,
-    0,
-    0,
-    0
-   ],
-   "locked": true,
-   "lastRun": "Updated Oct 26",
-   "subs": 2,
-   "prompt": "Logged in Asana, no scope written yet.",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
-    "Slack": 0,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Section · IDEAS",
-     "current"
-    ],
-    [
-     "2 subtasks on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Oct 26"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219412221112146"
   },
   {
    "id": "a1219436407948695",
@@ -817,54 +769,6 @@
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219742521168446"
   },
   {
-   "id": "a1219742521168495",
-   "asanaGid": "1219742521168495",
-   "name": "Implementations Deliverables Dashboard ",
-   "seat": "Innovation Lab",
-   "dept": "Innovation Lab",
-   "cat": "Deliverables",
-   "platform": "Claude",
-   "owner": "Andreina Matheus",
-   "initials": "AM",
-   "status": "Building",
-   "statusMapped": true,
-   "cls": "B",
-   "cs": [
-    1,
-    1,
-    0,
-    0
-   ],
-   "locked": false,
-   "lastRun": "Updated Oct 26",
-   "subs": 3,
-   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished ",
-   "conns": {
-    "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
-    "Slack": 0,
-    "Gmail": 0,
-    "Google Calendar": 0,
-    "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
-   },
-   "runs": [
-    [
-     "Section · WORKING ON IT",
-     "current"
-    ],
-    [
-     "3 subtasks on the task",
-     "in Asana"
-    ],
-    [
-     "Last activity in Asana",
-     "Oct 26"
-    ]
-   ],
-   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219742521168495"
-  },
-  {
    "id": "a1219648437767939",
    "asanaGid": "1219648437767939",
    "name": "Implementation Satisfaction Survey ",
@@ -1015,6 +919,92 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217387498050713"
+  },
+  {
+   "id": "a1219412221112146",
+   "asanaGid": "1219412221112146",
+   "name": "Asana L10 Clean Up ",
+   "seat": "Leadership",
+   "dept": "Leadership",
+   "cat": "Agent",
+   "platform": "GrokBot",
+   "owner": "Ignacio Thielen",
+   "initials": "IT",
+   "status": "ACTIVE",
+   "statusMapped": false,
+   "cls": "C",
+   "cs": null,
+   "locked": true,
+   "lastRun": "Updated Oct 29",
+   "subs": 2,
+   "prompt": "Logged in Asana, no scope written yet.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · ACTIVE",
+     "current"
+    ],
+    [
+     "2 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 29"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219412221112146"
+  },
+  {
+   "id": "a1219742521168495",
+   "asanaGid": "1219742521168495",
+   "name": "Implementations Deliverables Dashboard ",
+   "seat": "Innovation Lab",
+   "dept": "Innovation Lab",
+   "cat": "Deliverables",
+   "platform": "Claude",
+   "owner": "Andreina Matheus",
+   "initials": "AM",
+   "status": "ACTIVE",
+   "statusMapped": false,
+   "cls": "B",
+   "cs": null,
+   "locked": false,
+   "lastRun": "Updated Oct 29",
+   "subs": 3,
+   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished ",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 0,
+    "Asana": 0,
+    "Slack": 0,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · ACTIVE",
+     "current"
+    ],
+    [
+     "3 subtasks on the task",
+     "in Asana"
+    ],
+    [
+     "Last activity in Asana",
+     "Oct 29"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219742521168495"
   },
   {
    "id": "a1215972564622807",
@@ -2064,7 +2054,7 @@
     "Slack": 1,
     "Gmail": 1,
     "Google Calendar": 0,
-    "GoHighLevel": 1,
+    "GoHighLevel": 0,
     "Fathom / Fireflies": 1
    },
    "runs": [
@@ -2962,8 +2952,8 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 26",
-   "subs": 9,
+   "lastRun": "Updated Oct 29",
+   "subs": 10,
    "prompt": "CONTEXTO / SOLICITUD DE IGNACIO\n\nIgnacio pidio construir un dashboard interactivo que reemplace los spreadsheets y attachments sueltos que hoy se usan en las quarterly sessions con el coach Gerardo (proceso EOS). El objetivo es poder llevar toda la reunion navegando pestana tras pestana dentro de un solo dashboard, con informacion siempre actualizada, editable en vivo durante la reunion, y que le ahorre tiempo a cualquiera del leadership team que lo use.\n\nDivision de trabajo:\n- Andre (con ayuda de Italo): construye el dashboard.\n- Ignacio: alimenta los skills del C-EOS instalados en su Claude Code para que el dashboard se nutra con esa info.\n\nMATERIAL DE ORIGEN PROPORCIONADO POR IGNACIO\n1. Summary notes y transcript de la intro call sobre como se hacen las quarterly sessions con Gerardo.\n2. Agenda completa de la quarterly session (detallada abajo).\n\nESTRUCTURA DE LA AGENDA / SECCIONES QUE EL DASHBOARD DEBE CUBRIR (una pestana por seccion, idealmente):\n\n1. Check-in\n- Formulario que cada miembro del leadership team completa antes de la sesion (hoy es un adjunto).\n\n2. Review Prior Quarter Rocks (hoy es un spreadsheet que usa Gerardo como base de revision)\n- Date: quarter que arranca\n- Revenue del quarter revisado\n- Profit del quarter revisado\n- Measurable: MRR (Monthly Recurring Revenue) objetivo al cierre de ese quarter\n- Company Rocks\n- Individual Rocks\n- Departmental Rocks (si aplica)\n- Quarterly grading del leadership team\n\n3. Revision breve del EOS Model (EOS Tools / V/TO - 7 Questions)\n- Data: si se usan scorecards y si cada persona tiene sus measurables (KPIs)\n- Process: procesos documentados por departamento\n- Traction: si los rocks se estan cumpliendo/asignando y si los L10s se hacen correctamente\n- Issues: principales issues del quarter\n- People: People Analyzer (fuente: Asana project confidencial - NO compartir - app.asana.com/1/1207327179702218/.../1207554526030384)\n\n4. Establish Next Quarter Rocks\n- Date: quarter que arranca\n- Revenue del quarter\n- Profit deseado al cierre\n- Measurable: MRR objetivo\n- Company Rocks del proximo quarter\n- Individual Rocks del proximo quarter\n- Departmental Rocks del proximo quarter (si aplica)\n\n5. Tackle Key Issues\n\n6. Next Steps\n- Actualizar todo y organizar el townhall con todo el equipo para revisar el quarter cerrado y lanzar los rocks del siguiente quarter\n\n7. Conclude\n\nREQUISITO CLAVE DE PRODUCTO\nNo es un reporte estatico: tiene que ser un dashboard interactivo, editable en vivo durante la reunion (no solo de lectura), navegable por pestanas/secciones, que sustituya por completo los spreadsheets y attachments actuales.\n\nNOTA DE CONFIDENCIALIDAD\nLa seccion de People (People Analyzer) referencia un Asana project marcado como confidencial. No compartir ese contenido fuera del leadership team ni exponerlo sin control de acceso adecuado en el dashboard.\n\nPROXIMOS PASOS\n- Andre: definir arquitectura del dashboard (Layer 1 vs Layer 2/3) y estructura de pestanas segun la agenda de arriba.\n- Andre + Italo: construir el dashboard.\n- Ignacio: cargar/alimentar los skills del C-EOS en su Claude Code para conectar la data.\n- Validar con Ignacio el manejo de la seccion confidencial (People Analyzer) antes de dar acceso al leadership team.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -2980,12 +2970,12 @@
      "current"
     ],
     [
-     "9 subtasks on the task",
+     "10 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Oct 29"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216219890604010"
@@ -3263,7 +3253,7 @@
    "#ea5b0c"
   ],
   [
-   "The https://app.asana.com/0/1215967034683172/list is progressing on track as of Sep 18, 20",
+   "---------------------------------------- Summary The https://app.asana.com/0/1215967034683",
    "project status",
    "#96968f"
   ]
