@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-10-31",
-  "label": "Asana · synced Oct 31, 2026",
+  "syncedAt": "2026-11-01",
+  "label": "Asana · synced Nov 1, 2026",
   "counts": {
    "tasks": 73,
    "sections": 6,
@@ -15,6 +15,7 @@
    "owner": "Andreina Matheus",
    "doc": "Virtrify Brain — Canon Index"
   },
+  "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs.",
   "shapeChanges": {
    "unmappedSections": [
     "ACTIVE (48 tasks)",
@@ -28,8 +29,7 @@
     "'Loss prevention agent' carries two different 'Department' custom fields with conflicting values (Account Management vs Sales) — used \"Sales\" (the field present on all 73 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219)."
    ],
    "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. A new Platform option not in the known list (Claude/Viktor/GrokBot/Netlify/Asana/Google Drive) appeared on the GHL custom field — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
-  },
-  "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
+  }
  },
  "bots": [
   {
