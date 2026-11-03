@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-11-02",
-  "label": "Asana · synced Nov 2, 2026",
+  "syncedAt": "2026-11-03",
+  "label": "Asana · synced Nov 3, 2026",
   "counts": {
    "tasks": 73,
    "sections": 6,
@@ -15,7 +15,6 @@
    "owner": "Andreina Matheus",
    "doc": "Virtrify Brain — Canon Index"
   },
-  "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs.",
   "shapeChanges": {
    "unmappedSections": [
     "ACTIVE (48 tasks)",
@@ -28,8 +27,9 @@
     "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields with conflicting values (AI Implementation vs Recruitment) — used \"Recruitment\" (the field present on all 73 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219).",
     "'Loss prevention agent' carries two different 'Department' custom fields with conflicting values (Account Management vs Sales) — used \"Sales\" (the field present on all 73 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219)."
    ],
-   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. A new Platform option not in the known list (Claude/Viktor/GrokBot/Netlify/Asana/Google Drive) appeared on the GHL custom field — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
-  }
+   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. A Platform option not in the known list (Claude/Viktor/GrokBot/Netlify/Asana/Google Drive) appeared: GHL — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
+  },
+  "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
  "bots": [
   {
@@ -100,7 +100,7 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Oct 30",
+   "lastRun": "Updated Nov 2",
    "subs": 2,
    "prompt": "Source: Fathom Automation for Course Assignment — 2026-09-23 w/ Paola Gomez\nhttps://fathom.video/calls/833527480\n\nCategory: Agent | Owner: Paola Gomez | Dept: Onboarding | Platform: GrokBot\n\nWhat it does:\nWhen Sales posts Paid Invoice in Slack #New Sales Invoice Ready, the bot looks up a generic Role Ready / Industry course in GoHighLevel and assigns the course link to the talent. If no matching generic course exists, it creates an Asana task instead of failing silently.\n\nCurrent state:\nPaola creates Role Ready / Company / Industry content by hand per talent; lots of duplicated courses. Prerequisite before build: Paola consolidates client-specific courses into generic Role Ready (by role) and Industry (by industry) versions in GHL.\n\nAlso discussed same call (related, not this task):\n- Andreina to add Paola to Slack #New Sales Invoice Ready\n- Handover Notes Monday automation (separate skill already in pipeline)\n- 90-day onboarding plan not automatable yet; Predictive Index PDF paused\n\nNext:\n1) Paola consolidates generic courses in GHL and confirms ready\n2) Build GrokBot: Slack Paid Invoice trigger → GHL course lookup/assign → Asana fallback task if missing",
    "conns": {
@@ -123,7 +123,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 30"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218789446479907"
@@ -400,8 +400,8 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Oct 26",
-   "subs": 1,
+   "lastRun": "Updated Nov 2",
+   "subs": 2,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Sales & CRM\nDepartment: Sales\nCategory: Skill | Platform: Claude\n\nWhat it does (from Viktor):\nReference skill built for Alex on Sep 1, 2026 (not an automation). Snapshot and playbook after Alex complained James/Rene lacked leads while the CRM was full of dormant opportunities.\n\nStores GHL base snapshot (1,174 opportunities / 829 contacts; many unowned), proposed redistribution (James=ex-clients+net-new; Rene=SWFL cold + dead pre-sales; Abraham keeps actives), 30-day CEO-intro email sequence in batches of 25/rep/week, web playbook of 100 plays, and a draft announcement email for Ignacio/Marc (not sent). No active cron.\n\nSource: Andreina↔Viktor Slack DM D0B4B8WUKRD, thread 1790192686.534079\nhttps://valocatorvirtrify.slack.com/archives/D0B4B8WUKRD/p1790192686534079?thread_ts=1790192686.534079\nSlug: crm_database_reactivation",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -418,12 +418,12 @@
      "current"
     ],
     [
-     "1 subtask on the task",
+     "2 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812302938177"
@@ -448,8 +448,8 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Oct 26",
-   "subs": 1,
+   "lastRun": "Updated Nov 2",
+   "subs": 2,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Recruiting\nDepartment: Recruitment\nCategory: Skill | Platform: Claude\n\nWhat it does (from Viktor):\nSkill (not a cron). On-demand: give Viktor a blueprint link (Claude-Design / Netlify page); he reads it and builds the Handoff Pack for Fabiana (recruitment) and Paola (onboarding), including starting salary / seat price. Automation ideas discussed in August were never built.\n\nSource: Andreina↔Viktor Slack DM D0B4B8WUKRD, thread 1790190730.016439\nhttps://valocatorvirtrify.slack.com/archives/D0B4B8WUKRD/p1790190730016439?thread_ts=1790190730.016439\nSlug: blueprint_handoff_pack",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -466,12 +466,12 @@
      "current"
     ],
     [
-     "1 subtask on the task",
+     "2 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810709207"
@@ -644,7 +644,7 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Oct 28",
+   "lastRun": "Updated Nov 2",
    "subs": 3,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Sales & CRM\nDepartment: Sales\nCategory: Skill | Platform: Claude\n\nWhat it does (from Viktor):\nDaily cron (~8:30 AM Caracas, except Saturdays) watching Alex's sales meetings. Created by Alex on Aug 20 after Jennifer Cail canceled a strategy session and her GHL card stayed Booked unnoticed.\n\nEach day it: reviews Alex's calendar (last 10 / next 30 days) for canceled, declined, or likely no-show sales meetings; confirms non-occurrence via Fireflies/Otter transcripts, Gemini notes, and Gmail reschedule emails; checks for a newer meeting with that person; if the meeting died and the GHL card is still Strategy Session Booked, DMs Alex once with three options—(1) return card to Requested, (2) draft a reschedule email, or (3) both—never moves or sends without his approval.\n\nSource: Andreina↔Viktor Slack DM D0B4B8WUKRD, thread 1790199520.983809\nhttps://valocatorvirtrify.slack.com/archives/D0B4B8WUKRD/p1790199520983809?thread_ts=1790199520.983809\nSlug: alex_booking_watchdog",
    "conns": {
@@ -667,7 +667,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 28"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810397501"
@@ -788,8 +788,8 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Nov 2",
-   "subs": 6,
+   "lastRun": "Updated Nov 3",
+   "subs": 8,
    "prompt": "A survey asking how is your implementation going, so they have a tool to let us know how is the implementation going.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -806,16 +806,16 @@
      "current"
     ],
     [
-     "6 subtasks on the task",
+     "8 subtasks on the task",
      "in Asana"
     ],
     [
      "Due",
-     "Nov 2"
+     "Nov 3"
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 3"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219648437767939"
@@ -1107,7 +1107,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 1,
    "prompt": "Source: Fathom Ai Optimization w/ Paola Gomez — 2026-09-11\nhttps://fathom.video/calls/817929947\n\nCategory: Skill | Owner: Paola Gomez | Dept: Onboarding | Platform: Claude\n\nWhat it does:\nAnalyzes calendar + Fathom meetings to generate an onboarding handover summary for Abraham and Alejandra (Account Management).\n\nCurrent state:\nRuns manually per new client. Desired: Scheduled Task ~2 weeks after client start (any weekday). Interim: Paola can run with a 15-day date range and review draft before sending.\n\nNext:\nAndreina to explore Scheduled Task automation; then migrate private skill → department project / bot if needed.",
    "conns": {
@@ -1130,7 +1130,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460672521789"
@@ -1369,7 +1369,7 @@
    "cls": "D",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 1,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Finance & billing\nDepartment: Finance\nCategory: Skill | Platform: Claude\n\nWhat it does (from Viktor):\nUsed by Carlos Monsalve (Finance). Weekly cron DMs him results. Checks that each active VTM's amounts match between Asana project VA/Client Profit Margin (~131 tasks) and Sheet VTMs DASHBOARD → VTMs Directory (active packages).\n\nReports amount/rate/margin diffs (Asana fixes only with Carlos approval), active sheet VTMs missing Asana tasks, Asana tasks for inactive sheet VTMs, and (since Sep 15) Directory FT/PT mismatches. Cron: carlos-profit-margin-weekly (Mondays).\n\nSource: Andreina↔Viktor Slack DM D0B4B8WUKRD, thread 1790192034.259769\nhttps://valocatorvirtrify.slack.com/archives/D0B4B8WUKRD/p1790192034259769?thread_ts=1790192034.259769\nSlug: profit_margin_sync",
    "conns": {
@@ -1392,7 +1392,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799694427538"
@@ -1412,7 +1412,7 @@
    "cls": "D",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 2,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Finance & billing\nDepartment: Finance\nCategory: Skill | Platform: Claude\n\nWhat it does (from Viktor):\nUsed by Carlos Monsalve (Finance)—he alone receives the private DM report and decides escalation. Tracks mid-month invoice changes (credits, package increases, extra hours, churn) across Asana Finance/Client Bills tickets, Financials 2026 month tab, and GHL recurring invoices (read-only). Marks each incidence reconciled/pending and separates permanent vs one-time adjustments.\n\nCron /billing/incidences-log Mondays 8:30am Caracas for prior week; days 20–25 reminds Carlos of recurring-invoice gaps before GHL bills on the 25th.\n\nSource: Andreina↔Viktor Slack DM D0B4B8WUKRD, thread 1790191850.397249\nhttps://valocatorvirtrify.slack.com/archives/D0B4B8WUKRD/p1790191850397249?thread_ts=1790191850.397249\nSlug: billing_incidences_log",
    "conns": {
@@ -1435,7 +1435,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810609698"
@@ -1619,8 +1619,8 @@
    "cls": "D",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Oct 28",
-   "subs": 1,
+   "lastRun": "Updated Nov 2",
+   "subs": 2,
    "prompt": "What: Five automated weekly reports (Revenue, Sales, Trend, Collections, Monthly Sales) built in Víctor; scheduling bug fixed June 30, all set to auto-run starting July 3. Monitor schedule stability and maintain QuickBooks connection. Source: https://fathom.video/calls/724775182?tab=summary&timestamp=661.0",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -1637,12 +1637,12 @@
      "current"
     ],
     [
-     "1 subtask on the task",
+     "2 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Oct 28"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216169501250775"
@@ -1662,7 +1662,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 0,
    "prompt": "Source: Mariam Troche Slack DM + Skills summary PDF (2026-09-18).\nClaude: https://claude.ai/customize/skills?selectedId=skill_01X7aRSJsxsx2RC1iwNjgGXy\n\n## What it does\nRenames and sorts finished NotebookLM Studio artifacts. Prepends the module.lesson number to every artifact title (e.g. \"4.7 Measuring Impact\") across Studio types (videos, audios, infographics, reports, mind maps, quizzes, etc.) and leaves the list sorted ascending (lowest number on top).\n\nLast step in Virtrify course production pipeline:\nvirtrify-notebooklm-prompts → notebooklm-studio-generator → **notebooklm-studio-renamer**\n\n### Key rules\n- Rename in descending order (highest number first) so NotebookLM's bump-to-top behavior ends ascending\n- Module.lesson number always from the artifact's real generation prompt — never guessed from title\n- Verify full (untruncated) title in rename field before typing\n- Batch click/type sequences to minimize Claude-in-Chrome permission prompts\n\nOwner / requester context: Mariam Troche (Quality Assurance & Learning Specialist).",
    "conns": {
@@ -1681,7 +1681,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639068593070"
@@ -1701,7 +1701,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 1,
    "prompt": "Source: Mariam Troche Slack DM + Skills summary PDF (2026-09-18).\nClaude: https://claude.ai/customize/skills/discover/plugin_013XueHZcAaeS8v8wkvuTBJ7\n\n## What it does\nGenerates NotebookLM Studio content from already-written prompts. Takes a batch of pre-written customization prompts and runs them inside a notebook's Studio panel — Video Overviews, Audio Overviews, Slide Deck, Infographics — via Claude in Chrome.\n\nMiddle step in Virtrify course production pipeline:\nvirtrify-notebooklm-prompts (writes prompts) → **notebooklm-studio-generator** → notebooklm-studio-renamer\n\n### Formats / settings (from Mariam summary)\n- Video Overview → Explainer · Visual style: Whiteboard\n- Audio Overview → Deep Dive · Length: Short\n- Slide Deck → Detailed Deck · Length: Short\n- Infographic → Landscape · Style: Professional · Detail: Concise\n\n### Lessons learned\n- Video visual style resets to Auto-select every dialog reopen — reselect Whiteboard every video\n- Screenshot after pasting prompt to catch stray characters\n- Queue items back-to-back; no need to wait for each to finish before the next\n\nOwner / requester context: Mariam Troche (Quality Assurance & Learning Specialist).",
    "conns": {
@@ -1724,7 +1724,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639162798866"
@@ -1830,7 +1830,7 @@
    "cls": "D",
    "cs": null,
    "locked": true,
-   "lastRun": "Updated Oct 22",
+   "lastRun": "Updated Nov 2",
    "subs": 3,
    "prompt": "What: Configure Juan's access to the Claude Design financial dashboard HTML file on his new HP laptop; establish workflow for updating dashboard monthly with new Excel data after Q2 close and beyond. Source: https://fathom.video/calls/724775182?tab=summary&timestamp=1415.0",
    "conns": {
@@ -1853,7 +1853,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 22"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216170521681330"
@@ -1916,7 +1916,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 1,
    "prompt": "Source: Fathom Ai Optimization w/ Paola Gomez — 2026-09-11\nhttps://fathom.video/calls/817929947\n\nCategory: Skill | Owner: Paola Gomez | Dept: Onboarding | Platform: Claude\n\nWhat it does:\nCondensed one-pager version of the 90-day onboarding plan for quick stakeholder share.\n\nCurrent state:\nLive Claude skill; pairs with 90-Day Onboarding Plan.",
    "conns": {
@@ -1939,7 +1939,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460673856037"
@@ -1959,7 +1959,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 1,
    "prompt": "Source: Fathom Ai Optimization w/ Paola Gomez — 2026-09-11\nhttps://fathom.video/calls/817929947\n\nCategory: Skill | Owner: Paola Gomez | Dept: Onboarding | Platform: Claude\n\nWhat it does:\nFrom a client Scope of Work (SoW), creates a 30-60-90 day onboarding plan plus proposed KPIs.\n\nCurrent state:\nLive Claude skill used by Paola. Manual trigger.\n\nRelated:\nOnboarding One-Pager = short version of this plan.",
    "conns": {
@@ -1982,7 +1982,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460618028653"
@@ -2054,7 +2054,7 @@
     "Slack": 1,
     "Gmail": 1,
     "Google Calendar": 0,
-    "GoHighLevel": 0,
+    "GoHighLevel": 1,
     "Fathom / Fireflies": 1
    },
    "runs": [
@@ -2131,7 +2131,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 0,
    "prompt": "Skill that writes the general course description and the descriptions for each module.\n\nCreated by: Mariam Troche.\n\nSource: Mariam's reply to the Monday check-in on Slack, Oct 26, 2026, 12:15 PM (Caracas): \"I also created a new skill called /virtrify-course-descriptions that writes the general course description and the descriptions for each module.\"",
    "conns": {
@@ -2150,7 +2150,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219904728164604"
@@ -2252,7 +2252,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 26",
+   "lastRun": "Updated Nov 2",
    "subs": 2,
    "prompt": "Purpose: Set up and run a project interview for candidates who want to join the EOS position, and make sure applicants come prepared for it.\nScope\n\n    Define the project interview format and what candidates are expected to deliver.\n    Create clear prep instructions so candidates for the EOS position know how to prepare before the interview.\n    Share the prep materials with applicants ahead of their scheduled interview.\n    Evaluate each candidate against the EOS role expectations during the interview.",
    "conns": {
@@ -2275,7 +2275,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217142224662647"
@@ -2377,7 +2377,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 27",
+   "lastRun": "Updated Nov 2",
    "subs": 6,
    "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.",
    "conns": {
@@ -2400,7 +2400,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 27"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217145575745850"
@@ -2592,7 +2592,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 27",
+   "lastRun": "Updated Nov 2",
    "subs": 0,
    "prompt": "Purpose\n\n    Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role.\n\nArchitecture\n\n    Same standalone application as the L10 simulation activity, with a dedicated route for this activity.\n    Same GHL contact-ID gating: access requires a valid contact ID inserted into the link.\n    On completion, a Slack notification is sent with the candidate's submission/response.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
    "conns": {
@@ -2611,7 +2611,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 27"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740321676"
@@ -2631,7 +2631,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 27",
+   "lastRun": "Updated Nov 2",
    "subs": 0,
    "prompt": "Purpose\n\n    Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude.\n\nArchitecture\n\n    Standalone application (separate from GHL), with a dedicated route for this activity.\n    Access is gated via GoHighLevel: the link has the user's GHL contact ID dynamically inserted. Without that contact ID, the app rejects the request — the activity is only reachable by entering through GHL.\n    On completion, a Slack notification is sent with a summary of the candidate's L10 simulation.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
    "conns": {
@@ -2650,7 +2650,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 27"
+     "Nov 2"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740272350"
@@ -3261,7 +3261,7 @@
  "scheduled": [
   [
    "Implementation Satisfaction Survey · due",
-   "2026-11-02"
+   "2026-11-03"
   ],
   [
    "Canon Index review · Quarterly (EOS)",
