@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-11-05",
-  "label": "Asana · synced Nov 5, 2026",
+  "syncedAt": "2026-11-06",
+  "label": "Asana · synced Nov 6, 2026",
   "counts": {
    "tasks": 73,
    "sections": 6,
@@ -694,7 +694,7 @@
    "locked": true,
    "lastRun": "Updated Oct 30",
    "subs": 13,
-   "prompt": "A bot that runs automatically to create 2027 budget for leadership department \n\nIntroduction: La politica para construir budget es generalmente en el Q4 del año anterior, se prepara el año siguiente. En nuestro caso, hemos adoptado del Q4 el mes de diciembre. Como el budget se construye en diciembre para el año siguiente completo (2027) y como el budget tiene muchas premisas y muchos assumptions estimados, es necesario a la mitad del año (Junio), hacer una revision, para formular un budget revisado, que sirva de guia para el segundo semestre del año. Entonces, en este sentido, nos vamos a conseguir dos files de excel para el 2026, el que se hizo en diciembre del 2025 y el que se hizo en junio 2026 (llamado segundo semestre). \n\nEl budget tiene como punto de partida, la estimacion de los ingresos que tendria la empresa, menos los costos y gastos que se incurririan, mas la nomina, estimando los nuevos ingresos a tener los nuevos gastos a incurrir, y las nuevas contrataciones de personal.\n\nGeneralmente, los ingresos, se estiman por linea de producto, servicio o tipo (por ejemplo: paquetes full time, part-time, standard, onboarding fees, etc) mientras que los gastos se estiman por naturaleza, tipo o departamento (ventas, marketing, operaciones, finanzas, recursos humanos, IT, etc) \n\nComo resultado del budget vamos a obtener el profit and loss mensualizado que nos permita obtener luego los flujos de caja de la empresa mensualizados y otros indicadores clave para el negocio. ",
+   "prompt": "A bot that runs automatically to create 2027 budget for leadership department \n\nIntroduction: La politica para construir budget es generalmente en el Q4 del año anterior, se prepara el año siguiente. En nuestro caso, hemos adoptado del Q4 el mes de diciembre. Como el budget se construye en diciembre para el año siguiente completo (2027) y como el budget tiene muchas premisas y muchos assumptions estimados, es necesario a la mitad del año (Junio), hacer una revision, para formular un budget revisado, que sirva de guia para el segundo semestre del año. Entonces, en este sentido, nos vamos a conseguir dos files de excel para el 2026, el que se hizo en diciembre del 2025 y el que se hizo en junio 2026 (llamado segundo semestre). \n\nEl budget tiene como punto de partida, la estimacion de los ingresos que tendria la empresa, menos los costos y gastos que se incurririan, mas la nomina, estimando los nuevos ingresos a tener los nuevos gastos a incurrir, y las nuevas contrataciones de personal.\n\nGeneralmente, los ingresos, se estiman por linea de producto, servicio o tipo (por ejemplo: paquetes full time, part-time, standard, onboarding fees, etc) mientras que los gastos se estiman por naturaleza, tipo o departamento (ventas, marketing, operaciones, finanzas, recursos humanos, IT, etc) \n\nComo resultado del budget vamos a obtener el profit and loss mensualizado que nos permita obtener luego los flujos de caja de la empresa mensualizados y otros indicadores clave para el negocio.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -742,7 +742,7 @@
    "locked": false,
    "lastRun": "Updated Nov 4",
    "subs": 8,
-   "prompt": "A survey asking how is your implementation going, so they have a tool to let us know how is the implementation going. \n\n",
+   "prompt": "A survey asking how is your implementation going, so they have a tool to let us know how is the implementation going.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -975,7 +975,7 @@
    "locked": false,
    "lastRun": "Updated Oct 29",
    "subs": 3,
-   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished ",
+   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -1452,7 +1452,7 @@
    "locked": false,
    "lastRun": "Updated Oct 26",
    "subs": 1,
-   "prompt": "Monthly Billing Verification\nCross-checks Finance billing before the 15th so Alejandra Henriquez can catch mismatches early.\nWhen: 10th of each month (before billing on the 15th)\nWhat it does:\n    Pulls open Finance tickets from Asana\n    Compares them to the Financials 2026 Google Sheet for the current month\n    Matches the sheet against active recurring invoices in GHL\n    Flags VA count, VA $, fees, and total differences outside tolerance ($5 VA / $10 fees & total)\n    DMs Alejandra in Spanish with what’s OK, what’s off, and what to fix before the 15th\n\n",
+   "prompt": "Monthly Billing Verification\nCross-checks Finance billing before the 15th so Alejandra Henriquez can catch mismatches early.\nWhen: 10th of each month (before billing on the 15th)\nWhat it does:\n    Pulls open Finance tickets from Asana\n    Compares them to the Financials 2026 Google Sheet for the current month\n    Matches the sheet against active recurring invoices in GHL\n    Flags VA count, VA $, fees, and total differences outside tolerance ($5 VA / $10 fees & total)\n    DMs Alejandra in Spanish with what’s OK, what’s off, and what to fix before the 15th",
    "conns": {
     "Google Workspace (Virtrify Brain)": 1,
     "Asana": 1,
@@ -2049,7 +2049,7 @@
     "Slack": 1,
     "Gmail": 1,
     "Google Calendar": 0,
-    "GoHighLevel": 1,
+    "GoHighLevel": 0,
     "Fathom / Fireflies": 1
    },
    "runs": [
@@ -2211,7 +2211,7 @@
     "Google Workspace (Virtrify Brain)": 1,
     "Asana": 0,
     "Slack": 0,
-    "Gmail": 1,
+    "Gmail": 0,
     "Google Calendar": 0,
     "GoHighLevel": 0,
     "Fathom / Fireflies": 1
@@ -2249,7 +2249,7 @@
    "locked": false,
    "lastRun": "Updated Nov 2",
    "subs": 2,
-   "prompt": "Purpose: Set up and run a project interview for candidates who want to join the EOS position, and make sure applicants come prepared for it.\nScope\n\n    Define the project interview format and what candidates are expected to deliver.\n    Create clear prep instructions so candidates for the EOS position know how to prepare before the interview.\n    Share the prep materials with applicants ahead of their scheduled interview.\n    Evaluate each candidate against the EOS role expectations during the interview.\n",
+   "prompt": "Purpose: Set up and run a project interview for candidates who want to join the EOS position, and make sure applicants come prepared for it.\nScope\n\n    Define the project interview format and what candidates are expected to deliver.\n    Create clear prep instructions so candidates for the EOS position know how to prepare before the interview.\n    Share the prep materials with applicants ahead of their scheduled interview.\n    Evaluate each candidate against the EOS role expectations during the interview.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2374,15 +2374,15 @@
    "locked": false,
    "lastRun": "Updated Nov 3",
    "subs": 6,
-   "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.\n",
+   "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 1,
+    "Asana": 0,
     "Slack": 0,
     "Gmail": 0,
     "Google Calendar": 0,
     "GoHighLevel": 0,
-    "Fathom / Fireflies": 1
+    "Fathom / Fireflies": 0
    },
    "runs": [
     [
@@ -2589,7 +2589,7 @@
    "locked": false,
    "lastRun": "Updated Nov 3",
    "subs": 0,
-   "prompt": "Purpose\n\n    Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role.\n\nArchitecture\n\n    Same standalone application as the L10 simulation activity, with a dedicated route for this activity.\n    Same GHL contact-ID gating: access requires a valid contact ID inserted into the link.\n    On completion, a Slack notification is sent with the candidate's submission/response.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.\n",
+   "prompt": "Purpose\n\n    Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role.\n\nArchitecture\n\n    Same standalone application as the L10 simulation activity, with a dedicated route for this activity.\n    Same GHL contact-ID gating: access requires a valid contact ID inserted into the link.\n    On completion, a Slack notification is sent with the candidate's submission/response.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2628,7 +2628,7 @@
    "locked": false,
    "lastRun": "Updated Nov 3",
    "subs": 0,
-   "prompt": "Purpose\n\n    Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude.\n\nArchitecture\n\n    Standalone application (separate from GHL), with a dedicated route for this activity.\n    Access is gated via GoHighLevel: the link has the user's GHL contact ID dynamically inserted. Without that contact ID, the app rejects the request — the activity is only reachable by entering through GHL.\n    On completion, a Slack notification is sent with a summary of the candidate's L10 simulation.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.\n",
+   "prompt": "Purpose\n\n    Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude.\n\nArchitecture\n\n    Standalone application (separate from GHL), with a dedicated route for this activity.\n    Access is gated via GoHighLevel: the link has the user's GHL contact ID dynamically inserted. Without that contact ID, the app rejects the request — the activity is only reachable by entering through GHL.\n    On completion, a Slack notification is sent with a summary of the candidate's L10 simulation.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -3087,7 +3087,7 @@
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
     "Slack": 1,
-    "Gmail": 1,
+    "Gmail": 0,
     "Google Calendar": 0,
     "GoHighLevel": 1,
     "Fathom / Fireflies": 0
@@ -3130,7 +3130,7 @@
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
     "Slack": 1,
-    "Gmail": 1,
+    "Gmail": 0,
     "Google Calendar": 0,
     "GoHighLevel": 1,
     "Fathom / Fireflies": 0
