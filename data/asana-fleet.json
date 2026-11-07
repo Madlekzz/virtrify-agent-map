@@ -2,10 +2,10 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-11-06",
-  "label": "Asana · synced Nov 6, 2026",
+  "syncedAt": "2026-11-07",
+  "label": "Asana · synced Nov 7, 2026",
   "counts": {
-   "tasks": 73,
+   "tasks": 74,
    "sections": 6,
    "departments": 8
   },
@@ -15,7 +15,6 @@
    "owner": "Andreina Matheus",
    "doc": "Virtrify Brain — Canon Index"
   },
-  "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs.",
   "shapeChanges": {
    "unmappedSections": [
     "ACTIVE (49 tasks)",
@@ -25,11 +24,12 @@
     "GHL (1 task)"
    ],
    "duplicateCustomFields": [
-    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields with conflicting values (AI Implementation vs Recruitment) — used \"Recruitment\" (the field present on all 73 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219).",
-    "'Loss prevention agent' carries two different 'Department' custom fields with conflicting values (Account Management vs Sales) — used \"Sales\" (the field present on all 73 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219)."
+    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields with conflicting values (AI Implementation vs Recruitment) — used \"Recruitment\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219).",
+    "'Loss prevention agent' carries two different 'Department' custom fields with conflicting values (Account Management vs Sales) — used \"Sales\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219)."
    ],
    "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. A Platform option not in the known list (Claude/Viktor/GrokBot/Netlify/Asana/Google Drive) appeared: GHL (1 task) — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
-  }
+  },
+  "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
  "bots": [
   {
@@ -871,6 +871,54 @@
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217387498050713"
+  },
+  {
+   "id": "a1220312854691799",
+   "asanaGid": "1220312854691799",
+   "name": "Sales Skills Auto-Update",
+   "seat": "Sales",
+   "dept": "Sales",
+   "cat": "Agent",
+   "platform": "Claude",
+   "owner": "Italo Apruzzese",
+   "initials": "IA",
+   "status": "Building",
+   "statusMapped": true,
+   "cls": "C",
+   "cs": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "locked": false,
+   "lastRun": "Updated Nov 6",
+   "subs": 0,
+   "prompt": "What this agent is\n\nAn agent that keeps the Sales team's Claude skills up to date automatically, based on the changes the team specifies in the private Slack channel #external-sales. Outdated skills degrade the Sales team's output, so the goal is to remove the manual step of rebuilding and re-uploading them.\n\nWhat it will do\n\n    Read #external-sales (Slack) on a schedule and detect requested changes to a Sales skill.\n    Single source of standards in the Virtrify Brain, plus a scheduled task that reads the channel and proposes the changes.\n    When a change affects a skill, Claude Tag posts the updated skill in the channel so someone downloads it and uploads it to the team's Claude directory (manual variant, to be confirmed before testing).\n    Update/re-upload the existing skill directly in the Claude team directory, not through a GitHub repository. Most cases are updates, not new skills.\n    Update the skills themselves, not only the Brain.\n\nOpen questions\n\n    Confirm the end-to-end process with the team before testing.\n    Can Claude rebuild and re-upload skills automatically, or does it stay manual (download + upload)?\n    Who downloads and uploads the updated skill after Claude Tag posts it in the channel?\n    Which Sales skills are in scope.\n\nSource: Call with James (Sales), Nov 6, 2026.",
+   "conns": {
+    "Google Workspace (Virtrify Brain)": 1,
+    "Asana": 0,
+    "Slack": 1,
+    "Gmail": 0,
+    "Google Calendar": 0,
+    "GoHighLevel": 0,
+    "Fathom / Fireflies": 0
+   },
+   "runs": [
+    [
+     "Section · WORKING ON IT",
+     "current"
+    ],
+    [
+     "Due",
+     "Nov 9"
+    ],
+    [
+     "Last activity in Asana",
+     "Nov 6"
+    ]
+   ],
+   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1220312854691799"
   },
   {
    "id": "a1218799810709207",
@@ -3233,7 +3281,7 @@
  "gov": [],
  "activity": [
   [
-   "Fleet synced from Asana · 73 tasks, 8 departments",
+   "Fleet synced from Asana · 74 tasks, 8 departments",
    "today",
    "#3ecf72"
   ],
@@ -3256,6 +3304,10 @@
  "scheduled": [
   [
    "Implementation Satisfaction Survey · due",
+   "2026-11-09"
+  ],
+  [
+   "Sales Skills Auto-Update · due",
    "2026-11-09"
   ],
   [
