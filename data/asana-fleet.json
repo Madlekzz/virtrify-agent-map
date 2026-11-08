@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-11-07",
-  "label": "Asana · synced Nov 7, 2026",
+  "syncedAt": "2026-11-08",
+  "label": "Asana · synced Nov 8, 2026",
   "counts": {
    "tasks": 74,
    "sections": 6,
@@ -27,7 +27,7 @@
     "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields with conflicting values (AI Implementation vs Recruitment) — used \"Recruitment\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219).",
     "'Loss prevention agent' carries two different 'Department' custom fields with conflicting values (Account Management vs Sales) — used \"Sales\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219)."
    ],
-   "note": "These Asana sections have no status/colour mapping in field-mapping.md yet (status preserved verbatim from Asana; cs is null). Needs a Level-1 skill run (dashboard code: DOT, colDef, statusFilters) before this feed can fully drive the live Bot Command Center dashboard. A Platform option not in the known list (Claude/Viktor/GrokBot/Netlify/Asana/Google Drive) appeared: GHL (1 task) — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
+   "note": "Asana sections with no status/colour mapping in field-mapping.md yet (status preserved verbatim; cs is null) need a Level-1 dashboard update (DOT, colDef, statusFilters). A Platform value outside the known list appeared: GHL (1 task) — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
   },
   "govNote": "Tool-clearance table (gov) not re-sourced this sync — this run only pulled the Asana project and the Canon Index (version/owner/cadence line), per the requested scope. Left empty rather than reproducing a prior static table without re-verifying it against the Leadership/Technology canon docs."
  },
@@ -2259,7 +2259,7 @@
     "Google Workspace (Virtrify Brain)": 1,
     "Asana": 0,
     "Slack": 0,
-    "Gmail": 0,
+    "Gmail": 1,
     "Google Calendar": 0,
     "GoHighLevel": 0,
     "Fathom / Fireflies": 1
@@ -2425,12 +2425,12 @@
    "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
-    "Asana": 0,
+    "Asana": 1,
     "Slack": 0,
     "Gmail": 0,
     "Google Calendar": 0,
     "GoHighLevel": 0,
-    "Fathom / Fireflies": 0
+    "Fathom / Fireflies": 1
    },
    "runs": [
     [
@@ -3135,7 +3135,7 @@
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
     "Slack": 1,
-    "Gmail": 0,
+    "Gmail": 1,
     "Google Calendar": 0,
     "GoHighLevel": 1,
     "Fathom / Fireflies": 0
@@ -3178,7 +3178,7 @@
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
     "Slack": 1,
-    "Gmail": 0,
+    "Gmail": 1,
     "Google Calendar": 0,
     "GoHighLevel": 1,
     "Fathom / Fireflies": 0
@@ -3296,7 +3296,7 @@
    "#ea5b0c"
   ],
   [
-   "AI Agents Implementation Project: Three Agents Delivered and Awaiting Feedback — Project O",
+   "The https://app.asana.com/0/1215967034683172/list is progressing on track as of Sep 18, 20",
    "project status",
    "#96968f"
   ]
