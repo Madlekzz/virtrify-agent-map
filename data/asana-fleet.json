@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-11-09",
-  "label": "Asana · synced Nov 9, 2026",
+  "syncedAt": "2026-11-10",
+  "label": "Asana · synced Nov 10, 2026",
   "counts": {
    "tasks": 74,
    "sections": 6,
@@ -24,8 +24,8 @@
     "GHL (1 task)"
    ],
    "duplicateCustomFields": [
-    "'CRM database cleanup agent [Duplicate]' carries two different 'Department' custom fields with conflicting values (AI Implementation vs Recruitment) — used \"Recruitment\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219).",
-    "'Loss prevention agent' carries two different 'Department' custom fields with conflicting values (Account Management vs Sales) — used \"Sales\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other (gid 1211678013530219)."
+    "'CRM database cleanup agent [Duplicate]' carries other Department-named custom fields with a conflicting value (AI Implementation vs Recruitment) — used \"Recruitment\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other field(s): 1211678013530219 (Department), 1211709435596479 (Department (S)).",
+    "'Loss prevention agent' carries other Department-named custom fields with a conflicting value (Account Management vs Sales) — used \"Sales\" (the field present on all 74 tasks, gid 1218361443737496); ignored the other field(s): 1211709435596479 (Department (S)), 1211678013530219 (Department)."
    ],
    "note": "Asana sections with no status/colour mapping in field-mapping.md yet (status preserved verbatim; cs is null) need a Level-1 dashboard update (DOT, colDef, statusFilters). A Platform value outside the known list appeared: GHL (1 task) — needs a Level-1 dashboard decision on how to render it. Duplicate Department custom-field conflicts present (see duplicateCustomFields)."
   },
@@ -644,8 +644,8 @@
     0
    ],
    "locked": true,
-   "lastRun": "Updated Oct 26",
-   "subs": 2,
+   "lastRun": "Updated Nov 9",
+   "subs": 3,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Brand & content\nDepartment (folder): Brand & content — no exact Asana Department enum. Left Department unset; folder noted here.\nCategory: Skill | Platform: Claude\n\nEnlisted in IDEAS for inventory. Description TBD.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
@@ -662,12 +662,12 @@
      "current"
     ],
     [
-     "2 subtasks on the task",
+     "3 subtasks on the task",
      "in Asana"
     ],
     [
      "Last activity in Asana",
-     "Oct 26"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218812303343026"
@@ -694,7 +694,7 @@
    "locked": true,
    "lastRun": "Updated Oct 30",
    "subs": 13,
-   "prompt": "A bot that runs automatically to create 2027 budget for leadership department \n\nIntroduction: La politica para construir budget es generalmente en el Q4 del año anterior, se prepara el año siguiente. En nuestro caso, hemos adoptado del Q4 el mes de diciembre. Como el budget se construye en diciembre para el año siguiente completo (2027) y como el budget tiene muchas premisas y muchos assumptions estimados, es necesario a la mitad del año (Junio), hacer una revision, para formular un budget revisado, que sirva de guia para el segundo semestre del año. Entonces, en este sentido, nos vamos a conseguir dos files de excel para el 2026, el que se hizo en diciembre del 2025 y el que se hizo en junio 2026 (llamado segundo semestre). \n\nEl budget tiene como punto de partida, la estimacion de los ingresos que tendria la empresa, menos los costos y gastos que se incurririan, mas la nomina, estimando los nuevos ingresos a tener los nuevos gastos a incurrir, y las nuevas contrataciones de personal.\n\nGeneralmente, los ingresos, se estiman por linea de producto, servicio o tipo (por ejemplo: paquetes full time, part-time, standard, onboarding fees, etc) mientras que los gastos se estiman por naturaleza, tipo o departamento (ventas, marketing, operaciones, finanzas, recursos humanos, IT, etc) \n\nComo resultado del budget vamos a obtener el profit and loss mensualizado que nos permita obtener luego los flujos de caja de la empresa mensualizados y otros indicadores clave para el negocio.",
+   "prompt": "A bot that runs automatically to create 2027 budget for leadership department \n\nIntroduction: La politica para construir budget es generalmente en el Q4 del año anterior, se prepara el año siguiente. En nuestro caso, hemos adoptado del Q4 el mes de diciembre. Como el budget se construye en diciembre para el año siguiente completo (2027) y como el budget tiene muchas premisas y muchos assumptions estimados, es necesario a la mitad del año (Junio), hacer una revision, para formular un budget revisado, que sirva de guia para el segundo semestre del año. Entonces, en este sentido, nos vamos a conseguir dos files de excel para el 2026, el que se hizo en diciembre del 2025 y el que se hizo en junio 2026 (llamado segundo semestre). \n\nEl budget tiene como punto de partida, la estimacion de los ingresos que tendria la empresa, menos los costos y gastos que se incurririan, mas la nomina, estimando los nuevos ingresos a tener los nuevos gastos a incurrir, y las nuevas contrataciones de personal.\n\nGeneralmente, los ingresos, se estiman por linea de producto, servicio o tipo (por ejemplo: paquetes full time, part-time, standard, onboarding fees, etc) mientras que los gastos se estiman por naturaleza, tipo o departamento (ventas, marketing, operaciones, finanzas, recursos humanos, IT, etc) \n\nComo resultado del budget vamos a obtener el profit and loss mensualizado que nos permita obtener luego los flujos de caja de la empresa mensualizados y otros indicadores clave para el negocio. ",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -742,7 +742,7 @@
    "locked": false,
    "lastRun": "Updated Nov 9",
    "subs": 8,
-   "prompt": "A survey asking how is your implementation going, so they have a tool to let us know how is the implementation going.",
+   "prompt": "A survey asking how is your implementation going, so they have a tool to let us know how is the implementation going. \n\n",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -753,6 +753,10 @@
     "Fathom / Fireflies": 0
    },
    "runs": [
+    [
+     "Completed in Asana",
+     "Nov 9"
+    ],
     [
      "Section · WORKING ON IT",
      "current"
@@ -893,7 +897,7 @@
    ],
    "locked": false,
    "lastRun": "Updated Nov 9",
-   "subs": 0,
+   "subs": 2,
    "prompt": "What this agent is\n\nAn agent that keeps the Sales team's Claude skills up to date automatically, based on the changes the team specifies in the private Slack channel #external-sales. Outdated skills degrade the Sales team's output, so the goal is to remove the manual step of rebuilding and re-uploading them.\n\nWhat it will do\n\n    Read #external-sales (Slack) on a schedule and detect requested changes to a Sales skill.\n    Single source of standards in the Virtrify Brain, plus a scheduled task that reads the channel and proposes the changes.\n    When a change affects a skill, Claude Tag posts the updated skill in the channel so someone downloads it and uploads it to the team's Claude directory (manual variant, to be confirmed before testing).\n    Update/re-upload the existing skill directly in the Claude team directory, not through a GitHub repository. Most cases are updates, not new skills.\n    Update the skills themselves, not only the Brain.\n\nOpen questions\n\n    Confirm the end-to-end process with the team before testing.\n    Can Claude rebuild and re-upload skills automatically, or does it stay manual (download + upload)?\n    Who downloads and uploads the updated skill after Claude Tag posts it in the channel?\n    Which Sales skills are in scope.\n\nSource: Call with James (Sales), Nov 6, 2026.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 1,
@@ -910,8 +914,8 @@
      "current"
     ],
     [
-     "Due",
-     "Nov 9"
+     "2 subtasks on the task",
+     "in Asana"
     ],
     [
      "Last activity in Asana",
@@ -1023,7 +1027,7 @@
    "locked": false,
    "lastRun": "Updated Oct 29",
    "subs": 3,
-   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished",
+   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished ",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -1412,7 +1416,7 @@
    "cls": "D",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 9",
    "subs": 1,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Finance & billing\nDepartment: Finance\nCategory: Skill | Platform: Claude\n\nWhat it does (from Viktor):\nUsed by Carlos Monsalve (Finance). Weekly cron DMs him results. Checks that each active VTM's amounts match between Asana project VA/Client Profit Margin (~131 tasks) and Sheet VTMs DASHBOARD → VTMs Directory (active packages).\n\nReports amount/rate/margin diffs (Asana fixes only with Carlos approval), active sheet VTMs missing Asana tasks, Asana tasks for inactive sheet VTMs, and (since Sep 15) Directory FT/PT mismatches. Cron: carlos-profit-margin-weekly (Mondays).\n\nSource: Andreina↔Viktor Slack DM D0B4B8WUKRD, thread 1790192034.259769\nhttps://valocatorvirtrify.slack.com/archives/D0B4B8WUKRD/p1790192034259769?thread_ts=1790192034.259769\nSlug: profit_margin_sync",
    "conns": {
@@ -1435,7 +1439,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799694427538"
@@ -1455,7 +1459,7 @@
    "cls": "D",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 9",
    "subs": 2,
    "prompt": "Source: Claude SHARED skills inventory 2026-09-23\nSHARED folder: Finance & billing\nDepartment: Finance\nCategory: Skill | Platform: Claude\n\nWhat it does (from Viktor):\nUsed by Carlos Monsalve (Finance)—he alone receives the private DM report and decides escalation. Tracks mid-month invoice changes (credits, package increases, extra hours, churn) across Asana Finance/Client Bills tickets, Financials 2026 month tab, and GHL recurring invoices (read-only). Marks each incidence reconciled/pending and separates permanent vs one-time adjustments.\n\nCron /billing/incidences-log Mondays 8:30am Caracas for prior week; days 20–25 reminds Carlos of recurring-invoice gaps before GHL bills on the 25th.\n\nSource: Andreina↔Viktor Slack DM D0B4B8WUKRD, thread 1790191850.397249\nhttps://valocatorvirtrify.slack.com/archives/D0B4B8WUKRD/p1790191850397249?thread_ts=1790191850.397249\nSlug: billing_incidences_log",
    "conns": {
@@ -1478,7 +1482,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218799810609698"
@@ -1500,7 +1504,7 @@
    "locked": false,
    "lastRun": "Updated Oct 26",
    "subs": 1,
-   "prompt": "Monthly Billing Verification\nCross-checks Finance billing before the 15th so Alejandra Henriquez can catch mismatches early.\nWhen: 10th of each month (before billing on the 15th)\nWhat it does:\n    Pulls open Finance tickets from Asana\n    Compares them to the Financials 2026 Google Sheet for the current month\n    Matches the sheet against active recurring invoices in GHL\n    Flags VA count, VA $, fees, and total differences outside tolerance ($5 VA / $10 fees & total)\n    DMs Alejandra in Spanish with what’s OK, what’s off, and what to fix before the 15th",
+   "prompt": "Monthly Billing Verification\nCross-checks Finance billing before the 15th so Alejandra Henriquez can catch mismatches early.\nWhen: 10th of each month (before billing on the 15th)\nWhat it does:\n    Pulls open Finance tickets from Asana\n    Compares them to the Financials 2026 Google Sheet for the current month\n    Matches the sheet against active recurring invoices in GHL\n    Flags VA count, VA $, fees, and total differences outside tolerance ($5 VA / $10 fees & total)\n    DMs Alejandra in Spanish with what’s OK, what’s off, and what to fix before the 15th\n\n",
    "conns": {
     "Google Workspace (Virtrify Brain)": 1,
     "Asana": 1,
@@ -1705,7 +1709,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 9",
    "subs": 0,
    "prompt": "Source: Mariam Troche Slack DM + Skills summary PDF (2026-09-18).\nClaude: https://claude.ai/customize/skills?selectedId=skill_01X7aRSJsxsx2RC1iwNjgGXy\n\n## What it does\nRenames and sorts finished NotebookLM Studio artifacts. Prepends the module.lesson number to every artifact title (e.g. \"4.7 Measuring Impact\") across Studio types (videos, audios, infographics, reports, mind maps, quizzes, etc.) and leaves the list sorted ascending (lowest number on top).\n\nLast step in Virtrify course production pipeline:\nvirtrify-notebooklm-prompts → notebooklm-studio-generator → **notebooklm-studio-renamer**\n\n### Key rules\n- Rename in descending order (highest number first) so NotebookLM's bump-to-top behavior ends ascending\n- Module.lesson number always from the artifact's real generation prompt — never guessed from title\n- Verify full (untruncated) title in rename field before typing\n- Batch click/type sequences to minimize Claude-in-Chrome permission prompts\n\nOwner / requester context: Mariam Troche (Quality Assurance & Learning Specialist).",
    "conns": {
@@ -1724,7 +1728,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639068593070"
@@ -1744,7 +1748,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 9",
    "subs": 1,
    "prompt": "Source: Mariam Troche Slack DM + Skills summary PDF (2026-09-18).\nClaude: https://claude.ai/customize/skills/discover/plugin_013XueHZcAaeS8v8wkvuTBJ7\n\n## What it does\nGenerates NotebookLM Studio content from already-written prompts. Takes a batch of pre-written customization prompts and runs them inside a notebook's Studio panel — Video Overviews, Audio Overviews, Slide Deck, Infographics — via Claude in Chrome.\n\nMiddle step in Virtrify course production pipeline:\nvirtrify-notebooklm-prompts (writes prompts) → **notebooklm-studio-generator** → notebooklm-studio-renamer\n\n### Formats / settings (from Mariam summary)\n- Video Overview → Explainer · Visual style: Whiteboard\n- Audio Overview → Deep Dive · Length: Short\n- Slide Deck → Detailed Deck · Length: Short\n- Infographic → Landscape · Style: Professional · Detail: Concise\n\n### Lessons learned\n- Video visual style resets to Auto-select every dialog reopen — reselect Whiteboard every video\n- Screenshot after pasting prompt to catch stray characters\n- Queue items back-to-back; no need to wait for each to finish before the next\n\nOwner / requester context: Mariam Troche (Quality Assurance & Learning Specialist).",
    "conns": {
@@ -1767,7 +1771,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218639162798866"
@@ -1916,7 +1920,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 23",
+   "lastRun": "Updated Nov 9",
    "subs": 1,
    "prompt": "What the 1:1 Control Agent does\n\nIt replaces Alejandra’s manual Excel historial for BTM one-on-ones and the Claude chat she uses as a mini-assistant before meetings.\n\n1. Hourly sync — Find calendar/Fathom meetings whose titles start with “101 with” / “1-on-1 with” (all her 1:1s use that prefix), pull the summary, and append it to her Excel historial so she doesn’t paste each meeting by hand.\n2. Longer-term destination — Same summaries into an Asana project (one ticket per person) once that project is fixed; today Asana tickets are created wrong, so Excel is Phase A.\n3. Pre-meeting Q&A — Answer questions like “When was my last 1:1 with X?” and “What were the key points?” from the historial.\n4. Friday AM gap check — Flag BTMs who still owe their quarterly 1:1 so she can remind them (she usually does this Friday morning).",
    "conns": {
@@ -1939,7 +1943,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 23"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218361621402542"
@@ -2174,7 +2178,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 9",
    "subs": 0,
    "prompt": "Skill that writes the general course description and the descriptions for each module.\n\nCreated by: Mariam Troche.\n\nSource: Mariam's reply to the Monday check-in on Slack, Oct 26, 2026, 12:15 PM (Caracas): \"I also created a new skill called /virtrify-course-descriptions that writes the general course description and the descriptions for each module.\"",
    "conns": {
@@ -2193,7 +2197,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1219904728164604"
@@ -2252,7 +2256,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Oct 23",
+   "lastRun": "Updated Nov 9",
    "subs": 2,
    "prompt": "Annual-salary increase skill (Claude skill, Account Management)\n\nWhat it does: Builds a data-backed justification for a BTM's annual salary increase. It reviews performance evidence from that BTM's Fathom one-on-one recordings and their monthly reports from the last 2 years, then summarizes it for the AM.\n\nWho uses it: Account Managers (Owners: Alejandra Lovera, Abraham Valery).\n\nHow it works / requirements:\n- Fathom Premium with a shared group so AMs can access each other's recordings.\n- One-on-ones must be named consistently (\"One-on-one with [BTM]\") so Claude can find them.\n- Part of the Account Management Claude brain. Rule: never include the BTM's salary in emails.\n\nSource: \"Claude Skill for Salary increases and monthly reports audits\" call, Aug 21, 2026 (https://fathom.video/calls/791604607).",
    "conns": {
@@ -2275,7 +2279,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 23"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217688895056778"
@@ -2297,7 +2301,7 @@
    "locked": false,
    "lastRun": "Updated Nov 2",
    "subs": 2,
-   "prompt": "Purpose: Set up and run a project interview for candidates who want to join the EOS position, and make sure applicants come prepared for it.\nScope\n\n    Define the project interview format and what candidates are expected to deliver.\n    Create clear prep instructions so candidates for the EOS position know how to prepare before the interview.\n    Share the prep materials with applicants ahead of their scheduled interview.\n    Evaluate each candidate against the EOS role expectations during the interview.",
+   "prompt": "Purpose: Set up and run a project interview for candidates who want to join the EOS position, and make sure applicants come prepared for it.\nScope\n\n    Define the project interview format and what candidates are expected to deliver.\n    Create clear prep instructions so candidates for the EOS position know how to prepare before the interview.\n    Share the prep materials with applicants ahead of their scheduled interview.\n    Evaluate each candidate against the EOS role expectations during the interview.\n",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2420,9 +2424,9 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 3",
+   "lastRun": "Updated Nov 9",
    "subs": 6,
-   "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.",
+   "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.\n",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 1,
@@ -2443,7 +2447,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 3"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217145575745850"
@@ -2637,7 +2641,7 @@
    "locked": false,
    "lastRun": "Updated Nov 3",
    "subs": 0,
-   "prompt": "Purpose\n\n    Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role.\n\nArchitecture\n\n    Same standalone application as the L10 simulation activity, with a dedicated route for this activity.\n    Same GHL contact-ID gating: access requires a valid contact ID inserted into the link.\n    On completion, a Slack notification is sent with the candidate's submission/response.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
+   "prompt": "Purpose\n\n    Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role.\n\nArchitecture\n\n    Same standalone application as the L10 simulation activity, with a dedicated route for this activity.\n    Same GHL contact-ID gating: access requires a valid contact ID inserted into the link.\n    On completion, a Slack notification is sent with the candidate's submission/response.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.\n",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2676,7 +2680,7 @@
    "locked": false,
    "lastRun": "Updated Nov 3",
    "subs": 0,
-   "prompt": "Purpose\n\n    Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude.\n\nArchitecture\n\n    Standalone application (separate from GHL), with a dedicated route for this activity.\n    Access is gated via GoHighLevel: the link has the user's GHL contact ID dynamically inserted. Without that contact ID, the app rejects the request — the activity is only reachable by entering through GHL.\n    On completion, a Slack notification is sent with a summary of the candidate's L10 simulation.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
+   "prompt": "Purpose\n\n    Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude.\n\nArchitecture\n\n    Standalone application (separate from GHL), with a dedicated route for this activity.\n    Access is gated via GoHighLevel: the link has the user's GHL contact ID dynamically inserted. Without that contact ID, the app rejects the request — the activity is only reachable by entering through GHL.\n    On completion, a Slack notification is sent with a summary of the candidate's L10 simulation.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.\n",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2995,7 +2999,7 @@
     0
    ],
    "locked": false,
-   "lastRun": "Updated Oct 29",
+   "lastRun": "Updated Nov 9",
    "subs": 10,
    "prompt": "CONTEXTO / SOLICITUD DE IGNACIO\n\nIgnacio pidio construir un dashboard interactivo que reemplace los spreadsheets y attachments sueltos que hoy se usan en las quarterly sessions con el coach Gerardo (proceso EOS). El objetivo es poder llevar toda la reunion navegando pestana tras pestana dentro de un solo dashboard, con informacion siempre actualizada, editable en vivo durante la reunion, y que le ahorre tiempo a cualquiera del leadership team que lo use.\n\nDivision de trabajo:\n- Andre (con ayuda de Italo): construye el dashboard.\n- Ignacio: alimenta los skills del C-EOS instalados en su Claude Code para que el dashboard se nutra con esa info.\n\nMATERIAL DE ORIGEN PROPORCIONADO POR IGNACIO\n1. Summary notes y transcript de la intro call sobre como se hacen las quarterly sessions con Gerardo.\n2. Agenda completa de la quarterly session (detallada abajo).\n\nESTRUCTURA DE LA AGENDA / SECCIONES QUE EL DASHBOARD DEBE CUBRIR (una pestana por seccion, idealmente):\n\n1. Check-in\n- Formulario que cada miembro del leadership team completa antes de la sesion (hoy es un adjunto).\n\n2. Review Prior Quarter Rocks (hoy es un spreadsheet que usa Gerardo como base de revision)\n- Date: quarter que arranca\n- Revenue del quarter revisado\n- Profit del quarter revisado\n- Measurable: MRR (Monthly Recurring Revenue) objetivo al cierre de ese quarter\n- Company Rocks\n- Individual Rocks\n- Departmental Rocks (si aplica)\n- Quarterly grading del leadership team\n\n3. Revision breve del EOS Model (EOS Tools / V/TO - 7 Questions)\n- Data: si se usan scorecards y si cada persona tiene sus measurables (KPIs)\n- Process: procesos documentados por departamento\n- Traction: si los rocks se estan cumpliendo/asignando y si los L10s se hacen correctamente\n- Issues: principales issues del quarter\n- People: People Analyzer (fuente: Asana project confidencial - NO compartir - app.asana.com/1/1207327179702218/.../1207554526030384)\n\n4. Establish Next Quarter Rocks\n- Date: quarter que arranca\n- Revenue del quarter\n- Profit deseado al cierre\n- Measurable: MRR objetivo\n- Company Rocks del proximo quarter\n- Individual Rocks del proximo quarter\n- Departmental Rocks del proximo quarter (si aplica)\n\n5. Tackle Key Issues\n\n6. Next Steps\n- Actualizar todo y organizar el townhall con todo el equipo para revisar el quarter cerrado y lanzar los rocks del siguiente quarter\n\n7. Conclude\n\nREQUISITO CLAVE DE PRODUCTO\nNo es un reporte estatico: tiene que ser un dashboard interactivo, editable en vivo durante la reunion (no solo de lectura), navegable por pestanas/secciones, que sustituya por completo los spreadsheets y attachments actuales.\n\nNOTA DE CONFIDENCIALIDAD\nLa seccion de People (People Analyzer) referencia un Asana project marcado como confidencial. No compartir ese contenido fuera del leadership team ni exponerlo sin control de acceso adecuado en el dashboard.\n\nPROXIMOS PASOS\n- Andre: definir arquitectura del dashboard (Layer 1 vs Layer 2/3) y estructura de pestanas segun la agenda de arriba.\n- Andre + Italo: construir el dashboard.\n- Ignacio: cargar/alimentar los skills del C-EOS en su Claude Code para conectar la data.\n- Validar con Ignacio el manejo de la seccion confidencial (People Analyzer) antes de dar acceso al leadership team.",
    "conns": {
@@ -3018,7 +3022,7 @@
     ],
     [
      "Last activity in Asana",
-     "Oct 29"
+     "Nov 9"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1216219890604010"
@@ -3286,6 +3290,11 @@
    "#3ecf72"
   ],
   [
+   "Implementation Satisfaction Survey completed",
+   "Nov 9",
+   "#3ecf72"
+  ],
+  [
    "Incentive Program Bot blocked · GrokBot not cleared above class A",
    "open",
    "#e5484d"
@@ -3302,14 +3311,6 @@
   ]
  ],
  "scheduled": [
-  [
-   "Implementation Satisfaction Survey · due",
-   "2026-11-09"
-  ],
-  [
-   "Sales Skills Auto-Update · due",
-   "2026-11-09"
-  ],
   [
    "Canon Index review · Quarterly (EOS)",
    "quarterly"
