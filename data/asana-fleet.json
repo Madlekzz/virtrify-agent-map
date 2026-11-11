@@ -2,8 +2,8 @@
  "source": {
   "project": "AI Agents Implementation Project",
   "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172",
-  "syncedAt": "2026-11-10",
-  "label": "Asana · synced Nov 10, 2026",
+  "syncedAt": "2026-11-11",
+  "label": "Asana · synced Nov 11, 2026",
   "counts": {
    "tasks": 74,
    "sections": 6,
@@ -694,7 +694,7 @@
    "locked": true,
    "lastRun": "Updated Oct 30",
    "subs": 13,
-   "prompt": "A bot that runs automatically to create 2027 budget for leadership department \n\nIntroduction: La politica para construir budget es generalmente en el Q4 del año anterior, se prepara el año siguiente. En nuestro caso, hemos adoptado del Q4 el mes de diciembre. Como el budget se construye en diciembre para el año siguiente completo (2027) y como el budget tiene muchas premisas y muchos assumptions estimados, es necesario a la mitad del año (Junio), hacer una revision, para formular un budget revisado, que sirva de guia para el segundo semestre del año. Entonces, en este sentido, nos vamos a conseguir dos files de excel para el 2026, el que se hizo en diciembre del 2025 y el que se hizo en junio 2026 (llamado segundo semestre). \n\nEl budget tiene como punto de partida, la estimacion de los ingresos que tendria la empresa, menos los costos y gastos que se incurririan, mas la nomina, estimando los nuevos ingresos a tener los nuevos gastos a incurrir, y las nuevas contrataciones de personal.\n\nGeneralmente, los ingresos, se estiman por linea de producto, servicio o tipo (por ejemplo: paquetes full time, part-time, standard, onboarding fees, etc) mientras que los gastos se estiman por naturaleza, tipo o departamento (ventas, marketing, operaciones, finanzas, recursos humanos, IT, etc) \n\nComo resultado del budget vamos a obtener el profit and loss mensualizado que nos permita obtener luego los flujos de caja de la empresa mensualizados y otros indicadores clave para el negocio. ",
+   "prompt": "A bot that runs automatically to create 2027 budget for leadership department \n\nIntroduction: La politica para construir budget es generalmente en el Q4 del año anterior, se prepara el año siguiente. En nuestro caso, hemos adoptado del Q4 el mes de diciembre. Como el budget se construye en diciembre para el año siguiente completo (2027) y como el budget tiene muchas premisas y muchos assumptions estimados, es necesario a la mitad del año (Junio), hacer una revision, para formular un budget revisado, que sirva de guia para el segundo semestre del año. Entonces, en este sentido, nos vamos a conseguir dos files de excel para el 2026, el que se hizo en diciembre del 2025 y el que se hizo en junio 2026 (llamado segundo semestre). \n\nEl budget tiene como punto de partida, la estimacion de los ingresos que tendria la empresa, menos los costos y gastos que se incurririan, mas la nomina, estimando los nuevos ingresos a tener los nuevos gastos a incurrir, y las nuevas contrataciones de personal.\n\nGeneralmente, los ingresos, se estiman por linea de producto, servicio o tipo (por ejemplo: paquetes full time, part-time, standard, onboarding fees, etc) mientras que los gastos se estiman por naturaleza, tipo o departamento (ventas, marketing, operaciones, finanzas, recursos humanos, IT, etc) \n\nComo resultado del budget vamos a obtener el profit and loss mensualizado que nos permita obtener luego los flujos de caja de la empresa mensualizados y otros indicadores clave para el negocio.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -742,7 +742,7 @@
    "locked": false,
    "lastRun": "Updated Nov 9",
    "subs": 8,
-   "prompt": "A survey asking how is your implementation going, so they have a tool to let us know how is the implementation going. \n\n",
+   "prompt": "A survey asking how is your implementation going, so they have a tool to let us know how is the implementation going.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -1027,7 +1027,7 @@
    "locked": false,
    "lastRun": "Updated Oct 29",
    "subs": 3,
-   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished ",
+   "prompt": "Dashboard that helps implementation team deliver SOPs to the VTM hired by the client after Implementation is finished",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -1154,7 +1154,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 10",
    "subs": 1,
    "prompt": "Source: Fathom Ai Optimization w/ Paola Gomez — 2026-09-11\nhttps://fathom.video/calls/817929947\n\nCategory: Skill | Owner: Paola Gomez | Dept: Onboarding | Platform: Claude\n\nWhat it does:\nAnalyzes calendar + Fathom meetings to generate an onboarding handover summary for Abraham and Alejandra (Account Management).\n\nCurrent state:\nRuns manually per new client. Desired: Scheduled Task ~2 weeks after client start (any weekday). Interim: Paola can run with a 15-day date range and review draft before sending.\n\nNext:\nAndreina to explore Scheduled Task automation; then migrate private skill → department project / bot if needed.",
    "conns": {
@@ -1177,7 +1177,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460672521789"
@@ -1504,7 +1504,7 @@
    "locked": false,
    "lastRun": "Updated Oct 26",
    "subs": 1,
-   "prompt": "Monthly Billing Verification\nCross-checks Finance billing before the 15th so Alejandra Henriquez can catch mismatches early.\nWhen: 10th of each month (before billing on the 15th)\nWhat it does:\n    Pulls open Finance tickets from Asana\n    Compares them to the Financials 2026 Google Sheet for the current month\n    Matches the sheet against active recurring invoices in GHL\n    Flags VA count, VA $, fees, and total differences outside tolerance ($5 VA / $10 fees & total)\n    DMs Alejandra in Spanish with what’s OK, what’s off, and what to fix before the 15th\n\n",
+   "prompt": "Monthly Billing Verification\nCross-checks Finance billing before the 15th so Alejandra Henriquez can catch mismatches early.\nWhen: 10th of each month (before billing on the 15th)\nWhat it does:\n    Pulls open Finance tickets from Asana\n    Compares them to the Financials 2026 Google Sheet for the current month\n    Matches the sheet against active recurring invoices in GHL\n    Flags VA count, VA $, fees, and total differences outside tolerance ($5 VA / $10 fees & total)\n    DMs Alejandra in Spanish with what’s OK, what’s off, and what to fix before the 15th",
    "conns": {
     "Google Workspace (Virtrify Brain)": 1,
     "Asana": 1,
@@ -1920,7 +1920,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 9",
+   "lastRun": "Updated Nov 10",
    "subs": 1,
    "prompt": "What the 1:1 Control Agent does\n\nIt replaces Alejandra’s manual Excel historial for BTM one-on-ones and the Claude chat she uses as a mini-assistant before meetings.\n\n1. Hourly sync — Find calendar/Fathom meetings whose titles start with “101 with” / “1-on-1 with” (all her 1:1s use that prefix), pull the summary, and append it to her Excel historial so she doesn’t paste each meeting by hand.\n2. Longer-term destination — Same summaries into an Asana project (one ticket per person) once that project is fixed; today Asana tickets are created wrong, so Excel is Phase A.\n3. Pre-meeting Q&A — Answer questions like “When was my last 1:1 with X?” and “What were the key points?” from the historial.\n4. Friday AM gap check — Flag BTMs who still owe their quarterly 1:1 so she can remind them (she usually does this Friday morning).",
    "conns": {
@@ -1943,7 +1943,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 9"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218361621402542"
@@ -1963,7 +1963,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 10",
    "subs": 1,
    "prompt": "Source: Fathom Ai Optimization w/ Paola Gomez — 2026-09-11\nhttps://fathom.video/calls/817929947\n\nCategory: Skill | Owner: Paola Gomez | Dept: Onboarding | Platform: Claude\n\nWhat it does:\nCondensed one-pager version of the 90-day onboarding plan for quick stakeholder share.\n\nCurrent state:\nLive Claude skill; pairs with 90-Day Onboarding Plan.",
    "conns": {
@@ -1986,7 +1986,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460673856037"
@@ -2006,7 +2006,7 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 10",
    "subs": 1,
    "prompt": "Source: Fathom Ai Optimization w/ Paola Gomez — 2026-09-11\nhttps://fathom.video/calls/817929947\n\nCategory: Skill | Owner: Paola Gomez | Dept: Onboarding | Platform: Claude\n\nWhat it does:\nFrom a client Scope of Work (SoW), creates a 30-60-90 day onboarding plan plus proposed KPIs.\n\nCurrent state:\nLive Claude skill used by Paola. Manual trigger.\n\nRelated:\nOnboarding One-Pager = short version of this plan.",
    "conns": {
@@ -2029,7 +2029,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218460618028653"
@@ -2256,7 +2256,7 @@
    "cls": "C",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 9",
+   "lastRun": "Updated Nov 10",
    "subs": 2,
    "prompt": "Annual-salary increase skill (Claude skill, Account Management)\n\nWhat it does: Builds a data-backed justification for a BTM's annual salary increase. It reviews performance evidence from that BTM's Fathom one-on-one recordings and their monthly reports from the last 2 years, then summarizes it for the AM.\n\nWho uses it: Account Managers (Owners: Alejandra Lovera, Abraham Valery).\n\nHow it works / requirements:\n- Fathom Premium with a shared group so AMs can access each other's recordings.\n- One-on-ones must be named consistently (\"One-on-one with [BTM]\") so Claude can find them.\n- Part of the Account Management Claude brain. Rule: never include the BTM's salary in emails.\n\nSource: \"Claude Skill for Salary increases and monthly reports audits\" call, Aug 21, 2026 (https://fathom.video/calls/791604607).",
    "conns": {
@@ -2279,7 +2279,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 9"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217688895056778"
@@ -2299,9 +2299,9 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 2",
+   "lastRun": "Updated Nov 10",
    "subs": 2,
-   "prompt": "Purpose: Set up and run a project interview for candidates who want to join the EOS position, and make sure applicants come prepared for it.\nScope\n\n    Define the project interview format and what candidates are expected to deliver.\n    Create clear prep instructions so candidates for the EOS position know how to prepare before the interview.\n    Share the prep materials with applicants ahead of their scheduled interview.\n    Evaluate each candidate against the EOS role expectations during the interview.\n",
+   "prompt": "Purpose: Set up and run a project interview for candidates who want to join the EOS position, and make sure applicants come prepared for it.\nScope\n\n    Define the project interview format and what candidates are expected to deliver.\n    Create clear prep instructions so candidates for the EOS position know how to prepare before the interview.\n    Share the prep materials with applicants ahead of their scheduled interview.\n    Evaluate each candidate against the EOS role expectations during the interview.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2322,7 +2322,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 2"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217142224662647"
@@ -2424,9 +2424,9 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 9",
+   "lastRun": "Updated Nov 10",
    "subs": 6,
-   "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.\n",
+   "prompt": "Owner: Andreina Matheus  |  Due: Friday, Aug 7\nDescription\n\nWhile the NotebookLM blocker is resolved, build a separate Claude skill to test the image-correction concept for the courses. The skill should detect “incorrect” images and flag them for manual correction. It needs a clear definition of what makes an image “incorrect” before it can be trained (e.g., the course background-template header appearing when it shouldn't). Note: images must be correct BEFORE analyzing transcriptions.\nSubtasks\n\n    Receive example “incorrect” images from Paola (external dependency — Paola) — Get a set of course images marked as incorrect to use as reference.\n    Define the criteria for an “incorrect” image — Document what makes an image incorrect. This definition trains the skill.\n    Build the detection/flagging skill — Develop the skill that analyzes images and flags the incorrect ones for manual correction.\n    Test against the example set — Run the skill on Paola's images and evaluate accuracy (false positives/negatives).\n    Document results and viability — Record how well the concept works and a recommendation for the next step.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 1,
@@ -2447,7 +2447,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 9"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1217145575745850"
@@ -2639,9 +2639,9 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 3",
+   "lastRun": "Updated Nov 10",
    "subs": 0,
-   "prompt": "Purpose\n\n    Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role.\n\nArchitecture\n\n    Same standalone application as the L10 simulation activity, with a dedicated route for this activity.\n    Same GHL contact-ID gating: access requires a valid contact ID inserted into the link.\n    On completion, a Slack notification is sent with the candidate's submission/response.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.\n",
+   "prompt": "Purpose\n\n    Candidate writes a positioning statement selling being new to EOS as an advantage for the Integrator role.\n\nArchitecture\n\n    Same standalone application as the L10 simulation activity, with a dedicated route for this activity.\n    Same GHL contact-ID gating: access requires a valid contact ID inserted into the link.\n    On completion, a Slack notification is sent with the candidate's submission/response.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2658,7 +2658,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 3"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740321676"
@@ -2678,9 +2678,9 @@
    "cls": "E",
    "cs": null,
    "locked": false,
-   "lastRun": "Updated Nov 3",
+   "lastRun": "Updated Nov 10",
    "subs": 0,
-   "prompt": "Purpose\n\n    Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude.\n\nArchitecture\n\n    Standalone application (separate from GHL), with a dedicated route for this activity.\n    Access is gated via GoHighLevel: the link has the user's GHL contact ID dynamically inserted. Without that contact ID, the app rejects the request — the activity is only reachable by entering through GHL.\n    On completion, a Slack notification is sent with a summary of the candidate's L10 simulation.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.\n",
+   "prompt": "Purpose\n\n    Candidate practices facilitating/participating in a Level 10 (EOS Traction) meeting through a live conversational roleplay with Claude.\n\nArchitecture\n\n    Standalone application (separate from GHL), with a dedicated route for this activity.\n    Access is gated via GoHighLevel: the link has the user's GHL contact ID dynamically inserted. Without that contact ID, the app rejects the request — the activity is only reachable by entering through GHL.\n    On completion, a Slack notification is sent with a summary of the candidate's L10 simulation.\n\nBuilt by\n\n    Italo Apruzzese, via Claude Code.",
    "conns": {
     "Google Workspace (Virtrify Brain)": 0,
     "Asana": 0,
@@ -2697,7 +2697,7 @@
     ],
     [
      "Last activity in Asana",
-     "Nov 3"
+     "Nov 10"
     ]
    ],
    "url": "https://app.asana.com/1/1207327179702218/project/1215967034683172/task/1218512740272350"
@@ -3287,11 +3287,6 @@
   [
    "Fleet synced from Asana · 74 tasks, 8 departments",
    "today",
-   "#3ecf72"
-  ],
-  [
-   "Implementation Satisfaction Survey completed",
-   "Nov 9",
    "#3ecf72"
   ],
   [
